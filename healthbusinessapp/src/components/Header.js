@@ -3,9 +3,6 @@
 const Header = () => {
     return (
         <div className="navbar">
-            {/* <div className="header-img">
-                <img src="./../images/person.jpg" alt="Person"/>
-            </div> */}
             <div className="container">
                 {/* want the header to reference the home page */}
                 <a href="/">Almar</a>
