@@ -5,7 +5,7 @@ const Header = () => {
         <div className="navbar">
             <div className="container">
                 {/* want the header to reference the home page */}
-                <a href="/">Almar</a>
+                <a className="logo" href="/">Almar</a>
                 {/* <header>Almar</header> */}
                 <img id="mobile-cta" className="mobile-menu" src="./../images/menu.svg" alt="Open Navigation"/>
                 <nav>
