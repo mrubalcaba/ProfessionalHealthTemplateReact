@@ -15,4 +15,11 @@ body{
 
 .navbar{
   padding: 1em;
+
+  .logo{
+      text-decoration: none;
+      font-weight: bold;
+    //   change to white later
+      color:black;
+  }
 }
