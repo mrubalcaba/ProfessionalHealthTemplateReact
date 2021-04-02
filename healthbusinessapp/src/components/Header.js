@@ -23,6 +23,13 @@ const Header = () => {
                         
                     </ul>
                 </nav>
+                <section className="hero">
+        
+                    <h1>Find your happiness and learn to put it first.</h1>
+                    {/* will reference the same as get started button in header */}
+                    <p><a href="/">Chat with me</a></p>
+                
+                </section>
             </div>
         </div>
         
