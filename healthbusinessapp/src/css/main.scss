@@ -14,22 +14,47 @@ body{
 }
 
 .navbar{
-  padding: 1em;
   background-image: url('./../images/person.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  min-height: 50vh;
-  padding-top: 80px;
+  min-height: 60vh;
+
+    .container{
+        padding: 1em;
+        // display: flex;
+        place-content: space-between;
+        // display: inline;
+        border: 1px solid red;
+    }
+
+    .navbar-top{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        place-content: space-between;
+        border: 1px solid blueviolet;
+    }
 
     .logo{
+        max-height: 1.3em;
         text-decoration: none;
         font-weight: bold;
         color: white;
         font-size: 1.2em;
+        border:1px solid blue;
     }
 
     .mobile-menu{
-        width: 1em;
+        margin-right: 1%;
+        width: 1.2em;
+        // padding: 1.2em;
+        // position: absolute;
+        // top: 0;
+        // right: 0;
+        // border: 1px solid green;
+        // background-color: white;
+        filter: invert(1);
+        -webkit-filter: invert(1);
         cursor: pointer;
     }
 
@@ -37,16 +62,11 @@ body{
         display: none;
     }
 
-    .container{
-        // display: flex;
-        display: inline;
-        // place-content: space-between;
-    }
-
     .hero > h1 {
         color: white;
         padding-top: calc(100vmax/10);
         padding-bottom: calc(100vmax/10);
+        // border: 1px solid yellow;
 
     }
 }

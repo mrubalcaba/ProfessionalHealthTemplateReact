@@ -5,9 +5,11 @@ const Header = () => {
         <div className="navbar">
             <div className="container">
                 {/* want the header to reference the home page */}
-                <a className="logo" href="/">Almar</a>
-                {/* <header>Almar</header> */}
-                <img id="mobile-cta" className="mobile-menu" src="./../images/menu.svg" alt="Open Navigation"/>
+                <div className="navbar-top">
+                    <div className="logo" href="/">Almar</div>
+                    {/* <header>Almar</header> */}
+                    <img id="mobile-cta" className="mobile-menu" src="./../images/menu.svg" alt="Open Navigation"/>
+                </div>
                 <nav>
                     <img id="mobile-exit" className="mobile-menu-exit" src="./../images/cancel.svg" alt="Close Navigation"/>
                     <ul className="primary-nav">
