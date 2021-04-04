@@ -21,9 +21,7 @@ body{
 
     .container{
         padding: 1em;
-        // display: flex;
         place-content: space-between;
-        // display: inline;
         border: 1px solid red;
     }
 
@@ -36,7 +34,8 @@ body{
     }
 
     .logo{
-        max-height: 1.3em;
+        // max-height: 1.3em;
+        height: 100%;
         text-decoration: none;
         font-weight: bold;
         color: white;
@@ -48,11 +47,7 @@ body{
         margin-right: 1%;
         width: 1.2em;
         // padding: 1.2em;
-        // position: absolute;
-        // top: 0;
-        // right: 0;
         // border: 1px solid green;
-        // background-color: white;
         filter: invert(1);
         -webkit-filter: invert(1);
         cursor: pointer;
