@@ -4,7 +4,9 @@ const Features = () => {
     return (
         <section className="features">
            <div className="container">
-                <img className="features-image" src="./../images/women-in-nature.jpg" alt="Women in nature"/>
+               <div className="features-img">
+                <img className="nature-img" src="./../images/women-in-nature.jpg" alt="Women in nature"/>
+               </div>
                 <div className="right-col">
                     <h1 className="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Phasellus hendrerit diam in scelerisque efficitur. </h1>
