@@ -3,8 +3,8 @@
 const Header = () => {
     return (
         <div className="navbar">
-            <div className="person-background-img">
-                <img src="./../images/person.jpg" alt="Person"/>
+            <div className="nav-background-img">
+                <img className="person-background-img" src="./../images/person.jpg" alt="Person"/>
             </div>
             <div className="container">
                 {/* want the header to reference the home page */}
@@ -32,7 +32,7 @@ const Header = () => {
         
                     <h1>Find your happiness and learn to put it first.</h1>
                     {/* will reference the same as get started button in header */}
-                    <p><a href="/">Chat with me</a></p>
+                    <p><div className="membership-redirect">Chat with me</div></p>
                 
                 </section>
             </div>

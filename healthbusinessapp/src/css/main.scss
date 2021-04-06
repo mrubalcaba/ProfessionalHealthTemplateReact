@@ -14,30 +14,33 @@ body{
 }
 
 .navbar{
-//   min-height: 60vh;
+    height: 100%;
 //   width: 100%;
 
-    .person-background-img{
+    .nav-background-img{
         position: absolute;
         height: 100%;
         width: 100%;
+    }
 
-        img{
-            height: 60%;
-            width: 100%;
-        }
+    .person-background-img{
+        height: 60%;
+        width: 100%;
     }
 
     .container{
         position: absolute;
-        padding: 1em;
+        height: 60%;
+        // padding: 1em;
         place-content: space-between;
         border: 1px solid red;
     }
 
     .navbar-top{
-        width: 100%;
-        height: 100%;
+        // position: absolute;
+        margin-top: 2vh;
+        padding: 0 2vh;
+        // width: 100%;
         display: flex;
         place-content: space-between;
         border: 1px solid blueviolet;
@@ -49,13 +52,13 @@ body{
         text-decoration: none;
         font-weight: bold;
         color: white;
-        font-size: 1.2em;
-        border:1px solid blue;
+        font-size: 2vh;
+        // border:1px solid blue;
     }
 
     .mobile-menu{
         margin-right: 1%;
-        width: 1.2em;
+        width: 2vh;
         // border: 1px solid green;
         filter: invert(1);
         -webkit-filter: invert(1);
@@ -68,7 +71,7 @@ body{
 
     .hero > h1 {
         color: white;
-        margin: 10vh 1vh 0;
+        margin: 28vh 5vh 5vh;
         // margin: 10rem 1rem 0;
         // bottom: 0;
         // left: 0;
@@ -77,6 +80,19 @@ body{
         // padding-left: 3vw;
         // padding-right: 3vw;
         border: 1px solid yellow;  
+    }
+
+    .hero > p {
+        // text-decoration: underline;
+        color: white;
+        margin-left: 5vh;
+        // border: 1px solid rgb(0, 238, 255);
+    }
+
+    .membership-redirect{
+        width: auto;
+        border-bottom: 1px solid white;
+        display: inline-block;
     }
 }
 
