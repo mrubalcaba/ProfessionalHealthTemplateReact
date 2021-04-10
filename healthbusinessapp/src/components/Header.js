@@ -5,14 +5,17 @@ const Header = () => {
         <div className="navbar">
             <div className="nav-background-img">
                 <img className="person-background-img" src="./../images/person.jpg" alt="Person"/>
-            </div>
-            <div className="container">
-                {/* want the header to reference the home page */}
                 <div className="navbar-top">
                     <div className="logo" href="/">Almar</div>
-                    {/* <header>Almar</header> */}
                     <img id="mobile-cta" className="mobile-menu" src="./../images/menu.svg" alt="Open Navigation"/>
                 </div>
+                <section className="hero">
+                    <h1>Find your happiness and learn to put it first.</h1>
+                    {/* will reference the same as get started button in header */}
+                    <p><div className="membership-redirect">Chat with me</div></p>
+                </section>  
+            </div>
+            <div className="container">
                 <nav>
                     <img id="mobile-exit" className="mobile-menu-exit" src="./../images/cancel.svg" alt="Close Navigation"/>
                     <ul className="primary-nav">
@@ -28,13 +31,7 @@ const Header = () => {
                         
                     </ul>
                 </nav>
-                <section className="hero">
-        
-                    <h1>Find your happiness and learn to put it first.</h1>
-                    {/* will reference the same as get started button in header */}
-                    <p><div className="membership-redirect">Chat with me</div></p>
-                
-                </section>
+
             </div>
         </div>
         

@@ -14,31 +14,24 @@ body{
 }
 
 .navbar{
-    height: 100%;
+    // height: 100%;
 //   width: 100%;
 
     .nav-background-img{
-        position: absolute;
-        height: 100%;
-        width: 100%;
+        position: relative;
+        height: 65vh;
+        width: auto;
+        border: 1px solid rgb(42, 255, 42);
     }
 
     .person-background-img{
-        height: 60%;
+        height: 65vh;
         width: 100%;
     }
 
-    .container{
-        position: absolute;
-        height: 60%;
-        // padding: 1em;
-        place-content: space-between;
-        // border: 1px solid red;
-    }
-
     .navbar-top{
-        // position: absolute;
-        margin-top: 2vh;
+        position: absolute;
+        top: 2vh;
         padding: 0 2vh;
         display: flex;
         place-content: space-between;
@@ -46,44 +39,51 @@ body{
     }
 
     .logo{
-        // max-height: 1.3em;
+        position: relative;
         height: 100%;
-        text-decoration: none;
         font-weight: bold;
         color: white;
-        font-size: 2vh;
+        font-size: 4vmin;
         // border:1px solid blue;
     }
 
     .mobile-menu{
-        margin-right: 1%;
-        // width: 2vh;
+        position: relative;
         width: 5%;
-        filter: invert(1);
-        -webkit-filter: invert(1);
         cursor: pointer;
+        filter: invert(1);
+        -webkit-filter: invert(1);   
     }
 
     nav{
         display: none;
     }
 
+    .hero{
+        position: absolute;
+        padding: 0;
+        top: 30vh;
+        border: 1px solid red;
+    }
+
     .hero > h1 {
+        margin: 0 2vh;
         color: white;
-        margin: 28vh 2vh 5vh;
         text-align: center;
+        font-size: 4vmax;
+
         // border: 1px solid yellow;  
     }
 
     .hero > p {
         color: white;
-        margin-left: 5vh;
+        margin-left: 2vh;
     }
 
     .membership-redirect{
-        width: auto;
         border-bottom: 1px solid white;
         display: inline-block;
+        // border: 1px solid rgb(36, 233, 247);
     }
 }
 
@@ -93,17 +93,19 @@ a{
 }
 
 .features{
-    position: absolte;
+    // position: absolute;   
     background-color: rgb(191,177,196);
+    // border: 2px solid green;
 
     .features-img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border:  1px solid red;
+        padding-top: 50px;
+        // border:  1px solid red;
     }
 
     .nature-img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         height: 80%;
         width: 90%;
         margin-top: 60vh;
