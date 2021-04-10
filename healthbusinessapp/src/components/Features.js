@@ -14,7 +14,7 @@ const Features = () => {
                         aptent taciti sociosqu ad litora torquent per conubia 
                         nostra, per inceptos himenaeos. Fusce in elit non magna 
                         congue varius id eget erat. </h4>
-                    <button className="learn-more">Learn More</button>
+                    <div className="learn-more">Learn More</div>
                 </div>
             </div> 
             <div className="container">
@@ -27,7 +27,7 @@ const Features = () => {
                         Phasellus hendrerit diam in scelerisque efficitur. Class 
                         aptent taciti sociosqu ad litora torquent per conubia 
                         nostra, per inceptos himenaeos.</h4>
-                    <button className="learn-more friend-learn">Learn More</button>
+                    <div className="learn-more left-learn">Learn More</div>
                 </div>
             </div> 
         </section>

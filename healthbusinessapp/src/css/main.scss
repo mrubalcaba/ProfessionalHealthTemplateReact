@@ -93,7 +93,8 @@ a{
 
 .features{
     background-color: rgb(191,177,196);
-    padding-top: 2px;
+    padding-top: 0.1vh;
+    padding-bottom: 5vh;
     // border: 2px solid green;
 
     .feature-img{
@@ -120,18 +121,23 @@ a{
     }
 
     .learn-more{
-        padding: 20px;
-        font-weight: 600;
-        color: rgb(191,177,196);
         font-family: "Poppins", sans-serif;
+        background-color: white;
+        text-align:center;
+        height: 1.5em;
+        width: 6em;
+        padding: 1em;
+        font-size: 0.9em;
+        color: rgb(191,177,196);
+        // border: white;
     }
 
-    .left-col > .learn-more{
-        margin-bottom: 5vh;
+    .learn-more:hover{
+        opacity: 0.8;
     }
 
-    // .friend-learn{
-    //     margin-bottom: 2vh;
+    // .left-col > .learn-more{
+    //     margin-bottom: 5vh;
     // }
 
 }
