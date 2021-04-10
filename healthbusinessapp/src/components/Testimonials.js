@@ -2,9 +2,9 @@ const Testimonials = () => {
     return (
       <section className="testimonials-section">
           <div className="container">
-              <ul>
+              <ul className="testimonial-list">
                   <li>
-                      <img src="./../images/person.jpg" alt="Person"/>
+                      <img className="testimonial-person" src="./../images/person.jpg" alt="Person"/>
                       <blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Phasellus hendrerit diam in scelerisque efficitur. Class 
                         aptent taciti sociosqu ad litora torquent per conubia 
@@ -12,7 +12,7 @@ const Testimonials = () => {
                         <cite>- Jane Doe</cite>
                   </li>
                   <li>
-                      <img src="./../images/person.jpg" alt="Person"/>
+                      <img className="testimonial-person" src="./../images/person.jpg" alt="Person"/>
                       <blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Phasellus hendrerit diam in scelerisque efficitur. Class 
                         aptent taciti sociosqu ad litora torquent per conubia 
@@ -20,7 +20,7 @@ const Testimonials = () => {
                         <cite>- Jane Doe</cite>
                   </li>
                   <li>
-                      <img src="./../images/person.jpg" alt="Person"/>
+                      <img className="testimonial-person" src="./../images/person.jpg" alt="Person"/>
                       <blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Phasellus hendrerit diam in scelerisque efficitur. Class 
                         aptent taciti sociosqu ad litora torquent per conubia 
