@@ -71,7 +71,6 @@ body{
         color: white;
         text-align: center;
         font-size: 4vmax;
-
         // border: 1px solid yellow;  
     }
 
@@ -93,22 +92,46 @@ a{
 }
 
 .features{
-    // position: absolute;   
     background-color: rgb(191,177,196);
-    border: 2px solid green;
+    padding-top: 2px;
+    // border: 2px solid green;
 
-    .features-img{
-        padding-top: 50px;
-        // border:  1px solid red;
-    }
-
-    .nature-img{
+    .feature-img{
         display: block;
-        margin-left: auto;
-        margin-right: auto;
         height: 80%;
         width: 90%;
-        margin-top: 60vh;
-
+        margin: 5vh auto;
+        // border: 1px solid rgb(38, 255, 49);
     }
+
+    .col{
+        width: 90%;
+        margin: 0 auto;
+        color: white;
+        // border: 1px solid red;
+    }
+
+    .self-care-msg{
+        margin: 0 auto;
+    }
+
+    .col > h4{
+        font-weight: lighter;
+    }
+
+    .learn-more{
+        padding: 20px;
+        font-weight: 600;
+        color: rgb(191,177,196);
+        font-family: "Poppins", sans-serif;
+    }
+
+    .left-col > .learn-more{
+        margin-bottom: 5vh;
+    }
+
+    // .friend-learn{
+    //     margin-bottom: 2vh;
+    // }
+
 }
