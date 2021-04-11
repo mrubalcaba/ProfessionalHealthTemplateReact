@@ -8,7 +8,7 @@
 // }
 
 body{
-    background: #ccc9c9;
+    // background: #ccc9c9;
     margin: 0;
     font-family: "Poppins", sans-serif;
 }
@@ -93,7 +93,8 @@ a{
 }
 
 .features{
-    background-color: rgb(191,177,196);
+    // background-color: rgb(191,177,196);
+    background-color: rgb(203, 178, 212);
     padding-top: 0.1vh;
     padding-bottom: 5vh;
     // border: 2px solid green;
@@ -137,4 +138,31 @@ a{
         opacity: 0.8;
     }
 
+}
+
+.testimonial-list{
+    background-color: rgb(240, 240, 240);
+    border: 1px solid red;
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 5em 2em 0;
+
+    li{
+        // border: 5px solid blue;
+        padding: 2em 1em;
+        width: 80%;
+        margin: 0 auto 5em;
+        background:  rgb(203, 178, 212);
+        text-align: center;
+        border-radius: 2em;
+    }
+
+    .testimonial-person{
+        width: 5em;
+        height: 5em;
+        border: 6px solid rgb(203, 178, 212);
+        border-radius: 50%;
+        margin-top: -4.5em;
+    }
 }

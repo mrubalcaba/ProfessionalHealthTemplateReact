@@ -4,7 +4,7 @@ const Testimonials = () => {
           <div className="container">
               <ul className="testimonial-list">
                   <li>
-                      <img className="testimonial-person" src="./../images/person.jpg" alt="Person"/>
+                      <img className="testimonial-person first-testimonial" src="./../images/person.jpg" alt="Person"/>
                       <blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Phasellus hendrerit diam in scelerisque efficitur. Class 
                         aptent taciti sociosqu ad litora torquent per conubia 
@@ -12,7 +12,7 @@ const Testimonials = () => {
                         <cite>- Jane Doe</cite>
                   </li>
                   <li>
-                      <img className="testimonial-person" src="./../images/person.jpg" alt="Person"/>
+                      <img className="testimonial-person second-testimonial" src="./../images/person.jpg" alt="Person"/>
                       <blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Phasellus hendrerit diam in scelerisque efficitur. Class 
                         aptent taciti sociosqu ad litora torquent per conubia 
@@ -20,7 +20,7 @@ const Testimonials = () => {
                         <cite>- Jane Doe</cite>
                   </li>
                   <li>
-                      <img className="testimonial-person" src="./../images/person.jpg" alt="Person"/>
+                      <img className="testimonial-person third-testimonial" src="./../images/person.jpg" alt="Person"/>
                       <blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Phasellus hendrerit diam in scelerisque efficitur. Class 
                         aptent taciti sociosqu ad litora torquent per conubia 
