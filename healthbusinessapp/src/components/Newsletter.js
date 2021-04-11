@@ -20,7 +20,6 @@ const Newsletter = () => {
             
             </div>
             <p className="privacy-note">We respect your privacy.</p>
-            
         </section>
     )
 }
