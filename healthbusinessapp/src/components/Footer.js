@@ -4,7 +4,7 @@ const Footer = () => {
             <div className="container">
                 <div className="left-footer">
                     <p>ALMAR BY MEL DEMO</p>
-                    <h3>You belong here.</h3>
+                    <h2>You belong here.</h2>
                     <p><a href="/">MADE WITH MELS HANDS :)</a></p>
                 </div>
                 <div className="right-footer">
@@ -17,9 +17,9 @@ const Footer = () => {
                     </nav>
                     <nav>
                         <div className="footer-social">
-                            <img src="./../images/instagram.svg" alt="Instagram"/>
-                            <img src="./../images/twitter.svg" alt="Twitter"/>
-                            <img src="./../images/pinterest.svg" alt="Pinterest"/>
+                            <img className="social-media" src="./../images/instagram.svg" alt="Instagram"/>
+                            <img className="social-media" src="./../images/twitter.svg" alt="Twitter"/>
+                            <img className="social-media" src="./../images/pinterest.svg" alt="Pinterest"/>
                         </div>
                     </nav>
                 </div>
