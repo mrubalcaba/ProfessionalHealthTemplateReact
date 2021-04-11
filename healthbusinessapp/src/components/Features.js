@@ -27,7 +27,7 @@ const Features = () => {
                         Phasellus hendrerit diam in scelerisque efficitur. Class 
                         aptent taciti sociosqu ad litora torquent per conubia 
                         nostra, per inceptos himenaeos.</h4>
-                    <div className="learn-more left-learn">Learn More</div>
+                    <div className="learn-more">Learn More</div>
                 </div>
             </div> 
         </section>

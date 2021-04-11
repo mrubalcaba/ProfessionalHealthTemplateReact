@@ -142,11 +142,11 @@ a{
 
 .testimonial-list{
     background-color: rgb(240, 240, 240);
-    border: 1px solid red;
+    // border: 1px solid red;
     list-style-type: none;
     color: white;
     margin: 0;
-    padding: 5em 2em 0;
+    padding: 5em 2em 0.1em;
 
     li{
         // border: 5px solid blue;
@@ -164,5 +164,71 @@ a{
         border: 6px solid rgb(203, 178, 212);
         border-radius: 50%;
         margin-top: -4.5em;
+    }
+}
+
+.newsletter-section{
+    background-color:  rgb(203, 178, 212);
+    text-align: center;
+    padding: 2em 2em;
+    color: white;
+    border: 1px solid red;
+
+    .newsletter-header{
+        padding: 0 2em;
+        // border: 1px solid blue;
+    }
+
+    .newsletter-header-title{
+        margin: 0;
+        font-size: calc(1vh + 1rem);
+        font-weight: 300;
+        // border: 1px solid green;
+    }
+
+    .newsletter-header-description{
+        padding-bottom: 1em;
+        // border: 1px solid blueviolet;
+    }
+
+    label{
+        display: block;
+    }
+
+    #name{
+        border: 1px solid white;
+        padding: 1.4em 2em;
+        margin-bottom: 1em;
+        font-weight: lighter;
+    }
+
+    #email{
+        border: 1px solid white;
+        padding: 1.4em 2em;
+        margin-bottom: 1em;
+    }
+
+    ::placeholder{
+        font-family: "Poppins", san-serif;
+        opacity: 0.5;
+    }
+
+    .signup-cta{
+        display: block;
+        margin: 1em auto;
+        font-family: "Poppins", sans-serif;
+        background-color: white;
+        color: rgb(203, 178, 212);
+        padding: 1em 2em;
+        border: 1px solid white;
+        font-size: 0.9em;  
+    }
+
+    .privacy-note{
+        margin-top: 2.5em;
+        margin-bottom: 1em;
+        opacity: 0.9;
+        font-size: 0.9em;
+        font-weight: 100;
     }
 }
