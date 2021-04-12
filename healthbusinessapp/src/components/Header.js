@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className="navbar">
             <div className="nav-background-img">
-                <img className="person-background-img" src="./../images/person.jpg" alt="Person"/>
+                <img className="person-background-img" src="./../images/light-picture.jpg" alt="Person"/>
                 <div className="navbar-top">
                     <div className="logo" href="/">Almar</div>
                     <img id="mobile-cta" className="mobile-menu" src="./../images/menu.svg" alt="Open Navigation"/>

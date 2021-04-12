@@ -16,13 +16,17 @@ body{
 
     .nav-background-img{
         position: relative;
-        height: 65vh;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        height: 70vh;
         width: auto;
     }
 
     .person-background-img{
-        height: 65vh;
+        height: 100%;
         width: 100%;
+        object-fit: cover;
     }
 
     .navbar-top{
@@ -57,14 +61,15 @@ body{
     .hero{
         position: absolute;
         padding: 0;
-        top: 30vh;
+        top: 35vh;
     }
 
     .hero > h1 {
-        margin: 0 2vh;
+        margin: 0 4vh;
         color: white;
         text-align: center;
-        font-size: 4vmax;
+        // font-size: 4vh;
+        // border: 1px solid red;
     }
 
     .hero > p {
