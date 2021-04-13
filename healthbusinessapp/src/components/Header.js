@@ -14,9 +14,7 @@ const Header = () => {
                     {/* will reference the same as get started button in header */}
                     <p><div className="membership-redirect">Chat with me</div></p>
                 </section>  
-            </div>
-            <div className="container">
-                <nav>
+                <nav className="desktop-nav">
                     <img id="mobile-exit" className="mobile-menu-exit" src="./../images/cancel.svg" alt="Close Navigation"/>
                     <ul className="primary-nav">
                         <li className="current"><a href="/">You</a></li>
@@ -31,7 +29,6 @@ const Header = () => {
                         
                     </ul>
                 </nav>
-
             </div>
         </div>
         

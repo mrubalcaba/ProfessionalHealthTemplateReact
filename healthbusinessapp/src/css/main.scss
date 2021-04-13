@@ -12,6 +12,12 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
 .navbar{
 
     .nav-background-img{
@@ -48,7 +54,7 @@ body{
 
     .mobile-menu{
         position: relative;
-        width: 5%;
+        width: 1.5em;
         cursor: pointer;
         filter: invert(1);
         -webkit-filter: invert(1);   
@@ -69,7 +75,6 @@ body{
         color: white;
         text-align: center;
         // font-size: 4vh;
-        // border: 1px solid red;
     }
 
     .hero > p {
@@ -80,6 +85,7 @@ body{
     .membership-redirect{
         border-bottom: 1px solid white;
         display: inline-block;
+        cursor: pointer;
     }
 }
 
@@ -129,7 +135,6 @@ body{
 
 .testimonial-list{
     background-color: rgb(240, 240, 240);
-    list-style-type: none;
     color: white;
     margin: 0;
     padding: 5em 2em 0.1em;
@@ -252,7 +257,6 @@ body{
     .footer-nav{
         margin-top: 1.5em;
         margin-bottom: 0;
-        list-style-type: none;
         padding-left: 0;
         font-size: 0.9em;
         color: black;
@@ -276,5 +280,48 @@ body{
     .social-media{
         height: 4%;
         width: 4%;
+    }
+}
+
+// mobile navigation
+
+nav.menu-btn{
+    display: block;
+}
+
+nav.desktop-nav{
+    position: fixed;
+    z-index: 999;
+    width: 66%;
+    right: 0;
+    top: 0;
+    background: rgb(203, 178, 212);
+    height: 100vh;
+    padding: 1em;
+
+    .mobile-menu-exit{
+        float: right;
+        cursor: pointer;
+        filter: invert(1);
+        -webkit-filter: invert(1);
+        margin: .5em;  
+        width: 1.5em;
+    }
+
+    ul.primary-nav{
+        margin-top: 5em;
+    }
+
+    li > a{
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: .5em;
+        font-size: 1.3em;
+        text-align: right;
+
+        &:hover{
+            font-weight: bold;
+        }
     }
 }
