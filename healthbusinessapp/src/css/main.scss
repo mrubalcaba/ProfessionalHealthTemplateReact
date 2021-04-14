@@ -18,7 +18,7 @@ ul{
     padding: 0;
 }
 
-.navbar{
+.hero-container{
 
     .nav-background-img{
         position: relative;
@@ -35,30 +35,30 @@ ul{
         object-fit: cover;
     }
 
-    .navbar-top{
-        position: absolute;
-        width: 89vw;
-        top: 2vh;
-        padding: 0 2vh;
-        display: flex;
-        place-content: space-between;
-    }
+    // .navbar-top{
+    //     position: absolute;
+    //     width: 89vw;
+    //     top: 2vh;
+    //     padding: 0 2vh;
+    //     display: flex;
+    //     place-content: space-between;
+    // }
 
-    .logo{
-        position: relative;
-        height: 100%;
-        font-weight: bold;
-        color: white;
-        font-size: 4vmin;
-    }
+    // .logo{
+    //     position: relative;
+    //     height: 100%;
+    //     font-weight: bold;
+    //     color: white;
+    //     font-size: 4vmin;
+    // }
 
-    .mobile-menu{
-        position: relative;
-        width: 1.5em;
-        cursor: pointer;
-        filter: invert(1);
-        -webkit-filter: invert(1);   
-    }
+    // .mobile-menu{
+    //     position: relative;
+    //     width: 1.5em;
+    //     cursor: pointer;
+    //     filter: invert(1);
+    //     -webkit-filter: invert(1);   
+    // }
 
     // nav{
     //     display: none;
@@ -326,31 +326,38 @@ nav.desktop-nav{
     }
 }
 
-@media only screen and (min-width: 900px){
-    .mobile-menu, .mobile-menu-exit{
-        display: none;
-    }
-
-    .navbar .nav-background-img{
-        display: grid;
-        grid-template-columns: 180px auto;
-    }
-
-    .navbar nav{
-        display: flex;
-        background: none;
-        justify-content: space-between;
-        position: unset;
-        height: auto;
-        width: 100%;
-        padding: 0;
-
-        ul{
-            display: flex;
-        }
-        
-        a{
-            color: black;
-        }
+@media (max-width: 991.98px){
+    .desktop-nav > .container{
+        padding-right: 0;
+        padding-left: 0;
     }
 }
+
+// @media only screen and (min-width: 900px){
+//     .mobile-menu, .mobile-menu-exit{
+//         display: none;
+//     }
+
+//     .navbar .nav-background-img{
+//         display: grid;
+//         grid-template-columns: 180px auto;
+//     }
+
+//     .navbar nav{
+//         display: flex;
+//         background: none;
+//         justify-content: space-between;
+//         position: unset;
+//         height: auto;
+//         width: 100%;
+//         padding: 0;
+
+//         ul{
+//             display: flex;
+//         }
+        
+//         a{
+//             color: black;
+//         }
+//     }
+// }
