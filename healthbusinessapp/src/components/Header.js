@@ -1,4 +1,6 @@
 import { useState } from "react";
+// import Navbar from './Navbar.js'
+
 
 const Header = () => {
     const [showNav, toggleNav] = useState(false);
@@ -26,13 +28,9 @@ const Header = () => {
                         <li><a href="/">Blog</a></li>
                         <li><a href="/">About</a></li>
                         <li><a href="/">Contact</a></li>
-                        
-                    </ul>
-                    <ul className="secondary-nav">
                         <li><a href="/">Login</a></li>
                         <li className="get-started-cta"><a href="/">Get Started</a></li>
-                        
-                    </ul>
+                    </ul>  
                 </nav>: null}
             </div>
         </div>

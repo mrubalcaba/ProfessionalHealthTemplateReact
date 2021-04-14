@@ -325,3 +325,32 @@ nav.desktop-nav{
         }
     }
 }
+
+@media only screen and (min-width: 900px){
+    .mobile-menu, .mobile-menu-exit{
+        display: none;
+    }
+
+    .navbar .nav-background-img{
+        display: grid;
+        grid-template-columns: 180px auto;
+    }
+
+    .navbar nav{
+        display: flex;
+        background: none;
+        justify-content: space-between;
+        position: unset;
+        height: auto;
+        width: 100%;
+        padding: 0;
+
+        ul{
+            display: flex;
+        }
+        
+        a{
+            color: black;
+        }
+    }
+}
