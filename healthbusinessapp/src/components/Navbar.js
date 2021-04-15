@@ -5,13 +5,14 @@ const Navbar = (props) => {
     <div>
         <nav className="desktop-nav">
             <div className="container">
-                <div className="navbar-top">
+                {/* <div className="navbar-top"> */}
                     <a className="logo" href="/">Almar</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" 
                     aria-expanded="false" aria-label="Toggle Navigation">
-                        <img id="mobile-cta" className="mobile-menu" src="./../images/menu.svg" alt="Open Navigation"/></button>
-                </div>
-                <div className="collapse navbar-collapse" id="navbarResponsive">
+                        <img id="mobile-cta" className="mobile-menu" src="./../images/menu.svg" alt="Open Navigation"/>
+                    </button>
+                {/* </div> */}
+                <div className="navbar-collapse" id="navbarResponsive">
                     {/* <img id="mobile-exit" className="mobile-menu-exit" src="./../images/cancel.svg" alt="Close Navigation"/> */}
                     <ul className="primary-nav">
                         <li className="current"><a href="/">You</a></li>
