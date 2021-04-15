@@ -284,13 +284,13 @@ ul{
 }
 
 nav.desktop-nav{
-    position: fixed;
+    position: relative;
     z-index: 999;
-    width: 100vw;
+    // width: 100vw;
 
     .container{
         position: absolute;
-        width: 90vw;
+        // width: 89vw;
         top: 2vh;
         padding: 0 2vh;
         // padding-left: 2vh;
@@ -374,17 +374,20 @@ nav.desktop-nav{
 
 @media (max-width: 991.98px){
     .desktop-nav > .container{
-        padding-right: 5vw;
+        padding-right: 0;
         padding-left: 0;
+        width: 96%;
     }
 }
 
-@media (min-width: 992px){
+@media screen and (min-width: 992px){
     .desktop-nav{
         flex-flow: row nowrap;
         justify-content: flex-start;
-        width: 100%;
-        background-color: royalblue;
+    }
+
+    .primary-nav{
+        margin-left: auto;
     }
 
     .desktop-nav .primary-nav{
@@ -396,9 +399,11 @@ nav.desktop-nav{
     }
 
     .desktop-nav > .container {
-        flex-wrap: nowrap;
+        // flex-wrap: nowrap;
         background:rgb(203, 178, 212);
-        width: 100%;
+        width: 98%;
+        float: none;
+        border: 1px solid red;
     }
 
     .desktop-nav .navbar-collapse{

@@ -4,7 +4,7 @@ const Navbar = (props) => {
     return (
     <div>
         <nav className="desktop-nav">
-            <div className="container">
+            <div className="navbar-container container">
                 {/* <div className="navbar-top"> */}
                     <a className="logo" href="/">Almar</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" 
