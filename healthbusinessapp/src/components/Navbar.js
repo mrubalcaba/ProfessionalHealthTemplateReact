@@ -1,17 +1,27 @@
 import { useState } from "react";
+import PrimaryNav from "./PrimaryNav";
 
 const Navbar = (props) => {
+    const [show, showToggle] = useState(false);
+    const toggle = () => {
+        showToggle(!show);
+    }
+
     return (
     <div>
         <nav className="desktop-nav">
             <div className="navbar-container container">
                 {/* <div className="navbar-top"> */}
                     <a className="logo" href="/">Almar</a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" 
+                    {show ? <button className="navbar-toggler exit-toggler" onClick={toggle} type="button" data-target="#navbarResponsive" aria-controls="navbarResponsive" 
+                    aria-expanded="false" aria-label="Toggle Navigation">
+                        <img id="mobile-exit" className="mobile-menu-exit" src="./../images/cancel.svg" alt="Close Navigation"/>
+                    </button>
+                    :<button className="navbar-toggler menu-toggler" onClick={toggle} type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" 
                     aria-expanded="false" aria-label="Toggle Navigation">
                         <img id="mobile-cta" className="mobile-menu" src="./../images/menu.svg" alt="Open Navigation"/>
-                    </button>
-                {/* </div> */}
+                    </button>}
+                {/* </div> */}{show ? <PrimaryNav/> : null}
                 <div className="navbar-collapse" id="navbarResponsive">
                     {/* <img id="mobile-exit" className="mobile-menu-exit" src="./../images/cancel.svg" alt="Close Navigation"/> */}
                     <ul className="primary-nav">

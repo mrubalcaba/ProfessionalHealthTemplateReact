@@ -298,15 +298,45 @@ nav.desktop-nav{
         font-size: 1.3em;
 
         &:hover{
-            font-weight: bolder;
+            font-weight: bold;
+            // color: rgb(187, 187, 187);
         }
     }
 
+    .menu-toggler{
+        width: 1.5em;
+    }
+
     .mobile-menu{
+        top: 0;
+        right: 0;
+        position: absolute;
         cursor: pointer;
         filter: invert(1);
         -webkit-filter: invert(1);
         width: 1.5em;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+
+    }
+
+    .exit-toggler{
+        border: 1px solid green;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        filter: invert(1);
+        -webkit-filter: invert(1);
+        width: 1.5em;
+        
+
+        &:hover{
+            transform: scale(1.1);
+        }
     }
 
     ul.primary-nav{
@@ -379,7 +409,7 @@ nav.desktop-nav{
         padding-left: 2vh;
         // width: calc(95vw - 2vh);
         width: calc(100% - 4vh);
-        border: 1px solid blue;
+        // border: 1px solid blue;
     }
 }
 
@@ -404,10 +434,11 @@ nav.desktop-nav{
     .desktop-nav > .container {
         // flex-wrap: nowrap;
         // background:rgb(203, 178, 212);
-        width: 96.5%;
+        // width: 96.5%;
+        width: calc(100% - 4vh);
         float: none;
         padding: 0 2vh;
-        // border: 1px solid red;
+        // border: 1px solid blue;
     }
 
     .desktop-nav .navbar-collapse{
@@ -421,3 +452,12 @@ nav.desktop-nav{
 
 }
 
+.dropdown-menu{
+    position: absolute;
+    top: 6vh;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    background:rgb(203, 178, 212);
+    // border: 1px solid red;
+}
