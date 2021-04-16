@@ -20,7 +20,7 @@ const Navbar = (props) => {
                         <li><a href="/">About</a></li>
                         <li><a href="/">Contact</a></li>
                         <li><a href="/">Login</a></li>
-                        <li className="get-started-cta"><a href="/">Get Started</a></li>
+                        <li><a className="get-started-cta" href="/">Get Started</a></li>
                     </ul>
                 </div>
             </div>  
