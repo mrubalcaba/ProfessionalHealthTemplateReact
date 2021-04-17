@@ -35,35 +35,6 @@ ul{
         object-fit: cover;
     }
 
-    // .navbar-top{
-    //     position: absolute;
-    //     width: 89vw;
-    //     top: 2vh;
-    //     padding: 0 2vh;
-    //     display: flex;
-    //     place-content: space-between;
-    // }
-
-    // .logo{
-    //     position: relative;
-    //     height: 100%;
-    //     font-weight: bold;
-    //     color: white;
-    //     font-size: 4vmin;
-    // }
-
-    // .mobile-menu{
-    //     position: relative;
-    //     width: 1.5em;
-    //     cursor: pointer;
-    //     filter: invert(1);
-    //     -webkit-filter: invert(1);   
-    // }
-
-    // nav{
-    //     display: none;
-    // }
-
     .hero{
         position: absolute;
         padding: 0;
@@ -322,23 +293,6 @@ nav.desktop-nav{
 
     }
 
-    .exit-toggler{
-        border: 1px solid green;
-        padding: 0;
-        position: absolute;
-        top: 0;
-        right: 0;
-        cursor: pointer;
-        filter: invert(1);
-        -webkit-filter: invert(1);
-        width: 1.5em;
-        
-
-        &:hover{
-            transform: scale(1.1);
-        }
-    }
-
     ul.primary-nav{
         display: flex;   
     }
@@ -371,6 +325,7 @@ nav.desktop-nav{
       }
       
       .navbar-toggler {
+        border: 1px solid red;
         font-size: 1.2rem;
         line-height: 1;
         background-color: transparent;
@@ -380,18 +335,47 @@ nav.desktop-nav{
 
 }
 
+
+.exit-container{
+    background:rgb(203, 178, 212);
+    border: 1px solid green;
+    width: 15vh;
+    height: 30vh;
+
+    .exit-toggler{
+        border: 5px solid rgb(153, 0, 255);
+        padding: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        filter: invert(1);
+        -webkit-filter: invert(1);
+        width: 1.5em;
+    
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+
+    .dropdown-menu {
+        right: 0;
+        text-align: right;
+        position: absolute;
+        top: 6vh;
+
+    }
+
+    .dropdown-menu > li > a{
+        margin: 0;
+        padding: 0;
+        // border: 1px solid red;
+    }
+}
+
 .navbar-collapse:not(.show){
     display: none;
 }
-
-// @media (max-width: 991.98px){
-//     .desktop-nav > .container{
-//         padding-right: 0;
-//         padding-left: 2vh;
-//         width: 92vw;
-//         // border: 1px solid red;
-//     }
-// }
 
 @media (max-width: 749.98px){
     .desktop-nav > .container{
@@ -428,7 +412,6 @@ nav.desktop-nav{
         // position: absolute;
         padding-right: 0.5rem;
         padding-left: 0.5rem;
-        // border: 1px solid green;
     }
 
     .desktop-nav > .container {
@@ -438,7 +421,6 @@ nav.desktop-nav{
         width: calc(100% - 4vh);
         float: none;
         padding: 0 2vh;
-        // border: 1px solid blue;
     }
 
     .desktop-nav .navbar-collapse{
@@ -450,14 +432,12 @@ nav.desktop-nav{
         display: none;
     }
 
-}
+    .dropdown-menu{
+        display: none;
+    }
 
-.dropdown-menu{
-    position: absolute;
-    top: 6vh;
-    right: 0;
-    height: 100px;
-    width: 100px;
-    background:rgb(203, 178, 212);
-    // border: 1px solid red;
+    .exit-container{
+        display: none;
+    }
+
 }
