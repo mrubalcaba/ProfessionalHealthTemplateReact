@@ -337,17 +337,21 @@ nav.desktop-nav{
 
 
 .exit-container{
-    background:rgb(203, 178, 212);
-    border: 1px solid green;
+    position: fixed;
+    top: 1vh;
+    right: 1vh;
+    margin: 0;
+    // background:rgb(203, 178, 212);
+    background: rgb(41,58,78);
+    // border: 1px solid green;
     width: 15vh;
-    height: 30vh;
+    height: 35.5vh;
 
     .exit-toggler{
-        border: 5px solid rgb(153, 0, 255);
-        padding: 0;
         position: absolute;
-        top: 0;
-        right: 0;
+        padding: 0;
+        top: 2vh;
+        right: 1vh;
         cursor: pointer;
         filter: invert(1);
         -webkit-filter: invert(1);
@@ -362,8 +366,19 @@ nav.desktop-nav{
         right: 0;
         text-align: right;
         position: absolute;
-        top: 6vh;
+        top: 7vh;
+    }
 
+    .dropdown-menu > li{
+        width: 14vh;
+        margin: 0;
+        padding: 1vh 1vh 1vh 0;
+        font-size: 0.9em;
+        // border: 2px solid black;
+
+        &:hover{
+            background: rgb(25,34,50);
+        }
     }
 
     .dropdown-menu > li > a{
@@ -383,7 +398,7 @@ nav.desktop-nav{
         padding-left: 2vh;
         // width: 93vw;
         width: calc(100% - 4vh);
-        border: 1px solid red;
+        // border: 1px solid red;
     }
 }
 
