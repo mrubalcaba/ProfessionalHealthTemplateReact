@@ -3,7 +3,7 @@
 const Features = () => {
     return (
         <section className="features">
-           <div className="container">
+           <div className="container features-container left-feature">
                <div className="marketing-img">
                     <img className="feature-img" src="./../images/women-in-nature.jpg" alt="Women in nature"/>
                </div>
@@ -17,7 +17,7 @@ const Features = () => {
                     <div className="learn-more">Learn More</div>
                 </div>
             </div> 
-            <div className="container">
+            <div className="container features-container">
                 <div className="next-features-img">
                     <img className="feature-img" src="./../images/group-laughing.jpg" alt="Group laughing"/>
                 </div>

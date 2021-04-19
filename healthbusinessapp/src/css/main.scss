@@ -66,15 +66,18 @@ ul{
     padding-top: 0.1vh;
     padding-bottom: 5vh;
 
+    ///should put margin in container of img
+    //if needed
     .feature-img{
         display: block;
         height: 80%;
         width: 90%;
-        margin: 5vh auto;
+        margin: 0 auto;
     }
 
     .col{
         width: 90%;
+        // height: 80%;
         margin: 0 auto;
         color: white;
     }
@@ -455,4 +458,47 @@ nav.desktop-nav{
         display: none;
     }
 
+}
+
+@media (min-width: 1080px) {
+    .features-container{
+        width: 1080px;
+        margin: 0 auto;
+    }
+
+    .features{
+        padding: 8em 4em;
+    }
+
+    .left-feature{
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        border: 1px solid red;
+    }
+
+    .right-col{
+        border: 1px solid green;
+    }
+}
+
+@media (min-width: 1536px) {
+    .features-container{
+        width: 1536px;
+        margin: 0 auto;
+    }
+
+    .marketing-img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .feature-img{
+        margin: 0;
+    }
+
+    .right-col .self-care-msg{
+        font-size: 4em;
+    }
 }
