@@ -5,7 +5,7 @@ const Features = () => {
         <section className="features">
            <div className="container features-container left-feature">
                <div className="marketing-img">
-                    <img className="feature-img" src="./../images/women-in-nature.jpg" alt="Women in nature"/>
+                    <img className="feature-img feature-women-img" src="./../images/women-in-nature.jpg" alt="Women in nature"/>
                </div>
                 <div className="right-col col">
                     <h1 className="self-care-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
@@ -17,9 +17,9 @@ const Features = () => {
                     <div className="learn-more">Learn More</div>
                 </div>
             </div> 
-            <div className="container features-container">
+            <div className="container features-container right-feature">
                 <div className="next-features-img">
-                    <img className="feature-img" src="./../images/group-laughing.jpg" alt="Group laughing"/>
+                    <img className="feature-img feature-group-img" src="./../images/group-laughing.jpg" alt="Group laughing"/>
                 </div>
                 <div className="left-col col">
                     <h1 className="self-care-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>

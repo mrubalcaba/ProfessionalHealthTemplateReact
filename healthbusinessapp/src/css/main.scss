@@ -3,7 +3,7 @@
 // a{
 //     font-family: "Poppins", sans-serif;
 //     //font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-    
+
 // }
 
 body{
@@ -68,18 +68,35 @@ ul{
 
     ///should put margin in container of img
     //if needed
-    .feature-img{
+    // .feature-img{
+    //     display: block;
+    //     height: 80%;
+    //     width: 90%;
+    //     // margin: 0 auto;
+    //     margin-right: 1vh;
+    // }
+
+    .feature-women-img{
         display: block;
         height: 80%;
         width: 90%;
-        margin: 0 auto;
+        // margin: 5vh auto;
+        // margin-right: 1vh;
     }
 
     .col{
-        width: 80%;
+        width: 90%;
         height: 80%;
         margin: 0 auto;
         color: white;
+        // border: 1px solid blue;
+    }
+
+    .feature-group-img{
+        display: block;
+        height: 80%;
+        width: 90%;
+        margin: 5vh auto;
     }
 
     .self-care-msg{
@@ -93,18 +110,18 @@ ul{
     .learn-more{
         font-family: "Poppins", sans-serif;
         background-color: white;
-        text-align:center;
+        text-align: center;
+        margin-bottom: 2vh;
         height: 1.5em;
         width: 6em;
         padding: 1em;
         font-size: 0.9em;
         color: rgb(191,177,196);
-    }
 
-    .learn-more:hover{
-        opacity: 0.8;
+        &:hover{
+            opacity: 0.8;
+        }
     }
-
 }
 
 .testimonial-list{
@@ -130,7 +147,7 @@ ul{
         margin-top: -4.5em;
     }
 }
-
+//newsletter styling
 .newsletter-section{
     background-color:  rgb(203, 178, 212);
     text-align: center;
@@ -181,7 +198,7 @@ ul{
         color: rgb(203, 178, 212);
         padding: 1em 2em;
         border: 1px solid white;
-        font-size: 0.9em;  
+        font-size: 0.9em;
         cursor: pointer;
     }
 
@@ -192,7 +209,7 @@ ul{
         margin: 2.5em auto 1em;
     }
 }
-
+//footer styling
 .footer{
 
     a{
@@ -203,7 +220,7 @@ ul{
         display: inline-block;
         line-height: 1.3em;
     }
-    
+
     .container{
         margin: 2em 1em;
     }
@@ -249,7 +266,7 @@ ul{
         width: 4%;
     }
 }
-
+//navbar stylings
 nav.desktop-nav{
     position: relative;
     z-index: 999;
@@ -257,7 +274,6 @@ nav.desktop-nav{
     .container{
         position: absolute;
         top: 3vh;
-        // padding: 0 2vh;
         display: flex;
         place-content: space-between;
     }
@@ -297,11 +313,10 @@ nav.desktop-nav{
     }
 
     ul.primary-nav{
-        display: flex;   
+        display: flex;
     }
 
     .get-started-cta{
-        // padding-left: .5em;
         margin-left: .5em;
         padding: .65em 0.8em;
         color: black;
@@ -326,9 +341,9 @@ nav.desktop-nav{
         flex-grow: 1;
         align-items: center;
       }
-      
+
       .navbar-toggler {
-        border: 1px solid red;
+        // border: 1px solid red;
         font-size: 1.2rem;
         line-height: 1;
         background-color: transparent;
@@ -337,8 +352,7 @@ nav.desktop-nav{
       }
 
 }
-
-
+//dropdown styling
 .exit-container{
     position: fixed;
     top: 1vh;
@@ -359,7 +373,7 @@ nav.desktop-nav{
         filter: invert(1);
         -webkit-filter: invert(1);
         width: 1.5em;
-    
+
         &:hover{
             transform: scale(1.1);
         }
@@ -402,6 +416,10 @@ nav.desktop-nav{
         // width: 93vw;
         width: calc(100% - 4vh);
         // border: 1px solid red;
+    }
+
+    .feature-women-img{
+        margin: 5vh auto;
     }
 }
 
@@ -461,44 +479,59 @@ nav.desktop-nav{
 }
 
 @media (min-width: 1080px) {
-    .features-container{
-        width: 1080px;
-        margin: 0 auto;
-    }
 
+    //features padding
     .features{
         padding: 8em 4em;
+        border: 1px solid aqua;
     }
 
-    .left-feature{
-        padding: 0;
+    .features-container{
+        width: 1080px;
+        // margin: 0 auto;
+        // padding: 0;
         display: flex;
         justify-content: space-between;
         text-align: left;
-        border: 1px solid red;
     }
 
-    .right-col{
-        border: 1px solid green;
+    .feature-women-img{
+        margin: auto;
     }
+
 }
 
 @media (min-width: 1536px) {
-    .features-container{
+    .features-container{//
         width: 1536px;
-        margin: 0 auto;
     }
 
-    .marketing-img{
+    .left-feature{//
+        margin: 0 auto 8em;
+        border: 1px solid red;
+    }
+
+    .marketing-img{///
         height: 100%;
-        width: 100%;
+        width: 90%;
+    }
+    
+    .right-col{///
+        border: 1px solid green;
     }
 
-    .feature-img{
-        margin: 0;
+    .right-feature{//
+        margin: 0 auto;
+        border: 1px solid blue;
     }
 
-    .right-col .self-care-msg{
+    .next-features-img{///
+        height: 100%;
+        width: 90%;
+    }
+
+    .self-care-msg{////
         font-size: 4em;
     }
+
 }
