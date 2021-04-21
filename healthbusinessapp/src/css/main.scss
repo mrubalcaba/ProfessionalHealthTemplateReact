@@ -112,17 +112,16 @@ ul{
 .testimonial-list{
     background-color: rgb(240, 240, 240);
     color: white;
-    margin: 0;
+    // margin: 0;
     padding: 5em 2em 0.1em;
 
     li{
-        padding: 2em 1em;
-        width: 80%;
+        padding: 2em 0.5em;
+        width: 90%;
         margin: 0 auto 5em;
         background:  rgb(203, 178, 212);
         text-align: center;
         border-radius: 2em;
-        border: 1px solid green;
     }
 
     .testimonial-person{
@@ -415,23 +414,20 @@ nav.desktop-nav{
     }
 }
 
-@media (min-width: 750px){
+@media (min-width: 900px){
     .testimonial-section{
         margin: 0 auto;
     }
 
     .testimonial-list{
         display: flex;
-        border: 1px solid red;
         margin: 0 auto;
-    
-        li{
-            border: 2px solid red;            
+
+        .single-testimonial{
+            width: 40%;
+            margin: 0 2em 5em;
         }
 
-        li > .first-testimonial{
-            margin-right: 2vh;
-        }
     }
 }
 
