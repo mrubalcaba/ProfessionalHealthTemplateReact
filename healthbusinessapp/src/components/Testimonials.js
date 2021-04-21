@@ -1,26 +1,26 @@
 const Testimonials = () => {
     return (
       <section className="testimonials-section">
-          <div className="container">
+          {/* <div className="container"> */}
               <ul className="testimonial-list">
-                  <li>
-                      <img className="testimonial-person first-testimonial" src="./../images/person.jpg" alt="Person"/>
+                  <li className="single-testimonial">
+                      <img className="testimonial-person first-img-testimonial" src="./../images/person.jpg" alt="Person"/>
                       <blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Phasellus hendrerit diam in scelerisque efficitur. Class 
                         aptent taciti sociosqu ad litora torquent per conubia 
                         nostra, per inceptos himenaeos."</blockquote>
                         <cite>- Jane Doe</cite>
                   </li>
-                  <li>
-                      <img className="testimonial-person second-testimonial" src="./../images/person.jpg" alt="Person"/>
+                  <li className="single-testimonial">
+                      <img className="testimonial-person second-img-testimonial" src="./../images/person.jpg" alt="Person"/>
                       <blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Phasellus hendrerit diam in scelerisque efficitur. Class 
                         aptent taciti sociosqu ad litora torquent per conubia 
                         nostra, per inceptos himenaeos."</blockquote>
                         <cite>- Jane Doe</cite>
                   </li>
-                  <li>
-                      <img className="testimonial-person third-testimonial" src="./../images/person.jpg" alt="Person"/>
+                  <li className="single-testimonial">
+                      <img className="testimonial-person third-img-testimonial" src="./../images/person.jpg" alt="Person"/>
                       <blockquote>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
                         Phasellus hendrerit diam in scelerisque efficitur. Class 
                         aptent taciti sociosqu ad litora torquent per conubia 
@@ -28,7 +28,7 @@ const Testimonials = () => {
                         <cite>- Jane Doe</cite>
                   </li>
               </ul>
-          </div>
+          {/* </div> */}
       </section>
     )
 }
