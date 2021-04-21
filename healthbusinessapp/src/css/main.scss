@@ -25,15 +25,16 @@ ul{
         display: flex;
         justify-content: center;
         overflow: hidden;
-        height: 70vh;
+        aspect-ratio: 21/9;
+        // height: 70vh;
         width: auto;
     }
 
-    .person-background-img{
-        height: 100%;
-        width: 100%;
-        object-fit: cover;
-    }
+    // .person-background-img{
+    //     height: 100%;
+    //     width: 100%;
+    //     // object-fit: cover;
+    // }
 
     .hero{
         position: absolute;

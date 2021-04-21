@@ -3,7 +3,7 @@ const Hero = () => {
     return (
         <div className="hero-container">
             <div className="nav-background-img">
-                <img className="person-background-img" src="./../images/light-picture.jpg" alt="Person"/>
+                <img className="person-background-img" src="./../images/mountains.jpg" alt="Person"/>
                 <section className="hero">
                     <h1>Find your happiness and learn to put it first.</h1>
                     {/* will reference the same as get started button in header */}
