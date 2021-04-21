@@ -63,7 +63,9 @@ ul{
 
 .features{
     // background-color: rgb(191,177,196);
-    background-color: rgb(203, 178, 212);
+    // background-color: rgb(203, 178, 212);
+    background-color: rgb(25,34,50);
+
     padding-top: 0.1vh;
     padding-bottom: 5vh;
 
@@ -120,7 +122,8 @@ ul{
         padding: 2em 0.5em;
         width: 90%;
         margin: 0 auto 5em;
-        background:  rgb(203, 178, 212);
+        // background:  rgb(203, 178, 212);
+        background-color: rgb(25,34,50);
         text-align: center;
         border-radius: 2em;
     }
@@ -128,14 +131,17 @@ ul{
     .testimonial-person{
         width: 5em;
         height: 5em;
-        border: 6px solid rgb(203, 178, 212);
+        // border: 6px solid rgb(203, 178, 212);
+        border: 6px solid rgb(25,34,50);
         border-radius: 50%;
         margin-top: -4.5em;
     }
 }
 //newsletter styling
 .newsletter-section{
-    background-color:  rgb(203, 178, 212);
+    // background-color:  rgb(203, 178, 212);
+    background-color: rgb(25,34,50);
+    // background-color: rgb(31, 54, 94);
     text-align: center;
     padding: 2em 2em;
     color: white;
