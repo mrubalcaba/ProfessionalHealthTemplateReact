@@ -19,6 +19,7 @@ ul{
 }
 
 .hero-container{
+    height: 80vh;
 
     .nav-background-img{
         position: relative;
@@ -26,20 +27,19 @@ ul{
         justify-content: center;
         overflow: hidden;
         aspect-ratio: 21/9;
-        // height: 70vh;
-        width: auto;
+        height: 100%;
+        width: 100%;
     }
 
-    // .person-background-img{
-    //     height: 100%;
-    //     width: 100%;
-    //     // object-fit: cover;
-    // }
+    .hero-background-img{
+        height: 100%;
+        width: 100%;
+        // object-fit: cover;
+    }
 
     .hero{
         position: absolute;
-        padding: 0;
-        top: 49vh;
+        top: 60%;
     }
 
     .hero > h1 {
@@ -274,8 +274,9 @@ nav.desktop-nav{
         text-decoration: none;
         position: relative;
         height: 100%;
-        // font-weight: bold;
-        color: white;
+        // color: white;
+        color: rgb(22, 29, 41);
+
         font-size: 1.3em;
 
         &:hover{
@@ -316,7 +317,8 @@ nav.desktop-nav{
     }
 
     li > a{
-        color: white;
+        color: rgb(22, 29, 41);
+        // color: white;
         text-decoration: none;
         padding: .5em .75em;
         font-size: 1.1em;
@@ -591,7 +593,6 @@ nav.desktop-nav{
     .features-container{//
         width: 1450px;
     }
-
     //unique container img and text
     .left-feature{//
         margin: 0 auto 8em;
@@ -602,7 +603,6 @@ nav.desktop-nav{
         height: 100%;
         width: 100%;
     }
-
 ///////////////////////////////////
     //same lvl as left-feature
     .right-feature{//
@@ -617,7 +617,6 @@ nav.desktop-nav{
         // position: absolute;
     }
 
-
     .col{
         margin: auto;
         // border: 1px solid blue;
@@ -627,5 +626,4 @@ nav.desktop-nav{
         font-size: 3.5em;
         // border: 1px solid purple;
     }
-
 }
