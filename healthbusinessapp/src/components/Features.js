@@ -14,13 +14,13 @@ const Features = ({ width }) => {
 					<h4>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit diam in scelerisque
 						efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-						himenaeos. Fusce in elit non magna congue varius id eget erat.{' '}
+						himenaeos. Fusce in elit non magna congue varius id eget erat.
 					</h4>
 					<div className="learn-more">Learn More</div>
 				</div>
 			</div>
 			{width <= 1080 ? (
-				<div className="container features-container right-feature">
+				<div className="container features-container">
 					<div className="next-features-img">
 						<img
 							className="feature-img feature-group-img"
@@ -33,7 +33,7 @@ const Features = ({ width }) => {
 						<h4>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit diam in
 							scelerisque efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-							per inceptos himenaeos.
+							per inceptos himenaeos. Fusce in elit non magna congue varius id eget erat.
 						</h4>
 						<div className="learn-more">Learn More</div>
 					</div>
@@ -45,7 +45,7 @@ const Features = ({ width }) => {
 						<h4>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit diam in
 							scelerisque efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-							per inceptos himenaeos.
+							per inceptos himenaeos. Fusce in elit non magna congue varius id eget erat.
 						</h4>
 						<div className="learn-more">Learn More</div>
 					</div>
