@@ -19,7 +19,7 @@ const Features = ({ width }) => {
 					<div className="learn-more">Learn More</div>
 				</div>
 			</div>
-			{width <= 1080 ? (
+			{width <= 1000 ? (
 				<div className="container features-container">
 					<div className="next-features-img">
 						<img

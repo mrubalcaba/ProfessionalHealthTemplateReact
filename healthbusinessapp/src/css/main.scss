@@ -64,7 +64,8 @@ ul{
 .features{
     // background-color: rgb(191,177,196);
     // background-color: rgb(203, 178, 212);
-    background-color: rgb(25,34,50);
+    // background-color: rgb(25,34,50);
+    background-color: rgb(22, 29, 41);
     padding-top: 0.1vh;
     padding-bottom: 5vh;
 
@@ -103,7 +104,8 @@ ul{
         width: 6em;
         padding: 1em;
         font-size: 0.9em;
-        color: rgb(191,177,196);
+        // color: rgb(191,177,196);
+        color: rgb(25,34,50);
 
         &:hover{
             opacity: 0.8;
@@ -186,7 +188,8 @@ ul{
         margin: 1em auto;
         font-family: "Poppins", sans-serif;
         background-color: white;
-        color: rgb(203, 178, 212);
+        // color: rgb(203, 178, 212);
+        color: rgb(25,34,50);
         padding: 1em 2em;
         border: 1px solid white;
         font-size: 0.9em;
@@ -202,6 +205,7 @@ ul{
 }
 //footer styling
 .footer{
+    background-color: rgb(240, 240, 240);
 
     a{
         color: black;
@@ -213,11 +217,7 @@ ul{
     }
 
     .container{
-        margin: 2em 1em;
-    }
-
-    .left-footer{
-        height: auto;
+        padding: 2em 1.5em;
     }
 
     .left-footer > p{
@@ -253,8 +253,8 @@ ul{
     }
 
     .social-media{
-        height: 4%;
-        width: 4%;
+        height: 20px;
+        width: 20px;
     }
 }
 //navbar stylings
@@ -482,13 +482,26 @@ nav.desktop-nav{
 
 }
 
-@media (max-width: 1079.98px){
+@media (max-width: 1200px){
     .feature-img{
         margin: 5vh auto;
     }
+    
+    .footer-social{
+        margin-top: 1.5em;
+        padding-bottom: 0;
+    }
+
 }
 
-@media (min-width: 1080px) {
+@media (max-width: 999.98px){
+    .footer-social{
+        margin-top: 1.5em;
+        padding-bottom: 0;
+    }
+}
+
+@media (min-width: 1000px) {
     //features padding on all features
     .features{
         padding: 6em 2.5em;
@@ -505,7 +518,7 @@ nav.desktop-nav{
 
     .left-feature{//
         margin: 0 auto 6em;
-        border: 1px solid red;
+        // border: 1px solid red;
     }
 
     //unique container img
@@ -517,7 +530,7 @@ nav.desktop-nav{
 
     .right-feature{
         margin: 0 auto;
-        border: 1px solid blue;
+        // border: 1px solid blue;
     }
 
     .next-features-img{
@@ -533,6 +546,45 @@ nav.desktop-nav{
         font-size: 2em;
         // border: 1px solid purple;
     }
+
+    .footer > .container{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        border: 1px solid blue;
+    }
+
+    .footer{
+        p > a{
+            font-weight: 300;
+            line-height: 1.3em;
+        }
+
+        .footer-nav > li > a{
+            // font-weight: 300;
+            font-size: 1em;
+        }
+
+        .left-footer > p{
+            font-weight: 300;
+            font-size: 1.1em;
+        }
+
+        .left-footer > h2{
+            font-size: 2.3em;
+            line-height: 1.3em;
+        }
+        
+        .about-nav{
+            padding: 1.5em 0;
+        }
+
+        .footer-nav{
+            margin-top: 0;
+        }
+
+    }
+
 }
 
 @media (min-width: 1536px) {
@@ -543,7 +595,7 @@ nav.desktop-nav{
     //unique container img and text
     .left-feature{//
         margin: 0 auto 8em;
-        border: 1px solid red;
+        // border: 1px solid red;
     }
     //unique container img
     .marketing-img{///
@@ -556,7 +608,7 @@ nav.desktop-nav{
     .right-feature{//
         position: relative;
         margin: 0 auto;
-        border: 1px solid blue;
+        // border: 1px solid blue;
     }
     //same level as marketing img
     .next-features-img{///
@@ -567,7 +619,8 @@ nav.desktop-nav{
 
 
     .col{
-        border: 1px solid blue;
+        margin: auto;
+        // border: 1px solid blue;
     }
     //both
     .self-care-msg{////
