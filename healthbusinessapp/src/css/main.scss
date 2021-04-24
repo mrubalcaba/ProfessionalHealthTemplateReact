@@ -352,7 +352,9 @@ nav.desktop-nav{
     right: 1vh;
     margin: 0;
     // background:rgb(203, 178, 212);
-    background: rgb(41,58,78);
+    // background: rgb(41,58,78);
+    background: rgb(22, 29, 41);
+
     // border: 1px solid green;
     width: 15vh;
     height: 35.5vh;
@@ -387,14 +389,21 @@ nav.desktop-nav{
         // border: 2px solid black;
 
         &:hover{
-            background: rgb(25,34,50);
+            // background: rgb(25,34,50);
+            background: rgb(18, 24, 34);
+
         }
     }
 
     .dropdown-menu > li > a{
+        color: white;
         margin: 0;
         padding: 0;
         // border: 1px solid red;
+
+        &:hover{
+            font-weight: normal;
+        }
     }
 }
 
@@ -626,4 +635,25 @@ nav.desktop-nav{
         font-size: 3.5em;
         // border: 1px solid purple;
     }
+}
+
+////////////////////////////////////////////////////////////////////
+//login.js styling
+.login-container{
+    // font-family: 'Clarkson', 'Proxima Nova', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    // font-size: 13px;
+    // font-weight: 300;
+    box-shadow: 0 2px 114px 0 rgb(0 0 0 / 30%);
+    position: absolute;
+    display: block;//
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 480px;
+    max-width: calc(100% - 44px);
+    background-color: white;
+    box-sizing: border-box;
+    padding: 44px;
+    padding-bottom: 22px;
+    border-radius: 4px;
 }
