@@ -1,10 +1,8 @@
-import Navbar from "./Navbar";
 import Footer from "./Footer";
 
 const YouFeature = () => {
     return (
-        <div>
-            <Navbar>
+            <div>
                 <div className="you-feature-container">
                     <div className="you-background-img">
                         <img src="./../images/mountains.jpg" alt="person" className="you-background-img"/>
@@ -35,10 +33,10 @@ const YouFeature = () => {
                             <p>Lorem ipsum dolor sit amet nullam vel ultricies metus.</p>
                         </section>
                     </div>
-                </div>
+                </div>  
                 <Footer/>
-            </Navbar>
-        </div>
+           </div>
+       
     )
 }
 
