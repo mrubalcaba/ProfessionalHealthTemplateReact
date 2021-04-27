@@ -3,10 +3,10 @@ import Footer from "./Footer";
 const YouFeature = () => {
     return (
             <div>
-                <div className="you-feature-container">
-                    <div className="you-background-img">
-                        <img src="./../images/mountains.jpg" alt="person" className="you-background-img"/>
-                        <section className="you-content">
+                <div className="you-feature-container hero-container">
+                    <div className="you-background-img nav-background-img">
+                        <img src="./../images/mountains.jpg" alt="person" className="hero-background-img you-hero-background-img"/>
+                        <section className="you-content hero">
                             <p>Journey 1 - Relationship with You</p>
                             <h1>You belong here just as much as anyone else.</h1>
                         </section>
