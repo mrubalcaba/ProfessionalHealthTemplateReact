@@ -40,19 +40,26 @@ ul{
 
     .hero{
         position: absolute;
-        top: 60%;
+        z-index: 1000;
+        top: 50%;
+        left: 2vw;
     }
 
     .hero > h1 {
+        white-space: pre-wrap;
         margin: 0 4vh;
+        width: 50vw;
         color: white;
-        text-align: center;
-        // font-size: 4vh;
+        text-align: left;
+        font-size: 4em;
+        // font-size: calc((4 - 1) * 1.2vw + 1rem);
+        // border: 1px solid blue;
     }
 
     .hero > p {
         color: white;
         margin-left: 4vh;
+        margin-top: 4vh;
     }
 
     .membership-redirect{
@@ -263,25 +270,30 @@ nav.desktop-nav{
     z-index: 999;
 
     .container{
+        // padding-left: 10vh;
         position: absolute;
         top: 3vh;
         display: flex;
         place-content: space-between;
+        // border: 1px solid blue;
     }
 
     .logo{
-        top: 0.1em;
+        // top: 0.1em;
+        margin-left: 2vw;
         text-decoration: none;
         position: relative;
         height: 100%;
-        // color: white;
-        color: rgb(22, 29, 41);
-
-        font-size: 1.3em;
+        color: white;
+        // color: rgb(22, 29, 41);
+        font-size: 2em;
+        font-weight: bold;
+        // border: 1px solid red;
 
         &:hover{
-            font-weight: bold;
-            // color: rgb(187, 187, 187);
+            // font-weight: bold;
+            // color: rgb(224, 224, 224);
+            color: rgb(192, 224, 231);
         }
     }
 
@@ -305,7 +317,9 @@ nav.desktop-nav{
     }
 
     ul.primary-nav{
+        margin-right: 2vw;
         display: flex;
+        // border: 1px solid purple;
     }
 
     .get-started-cta{

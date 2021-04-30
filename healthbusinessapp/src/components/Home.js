@@ -35,8 +35,8 @@ function useWindowSize() {
 const Home = ({show}) => {
     const size = useWindowSize();
 	return(
-		<div>
-			{show ? <Dropdown/> : 
+		// <div>
+		// 	{show ? <Dropdown/> : 
 			<div>
 				<Hero/>
 				<Features width={size.width}/>
@@ -44,8 +44,8 @@ const Home = ({show}) => {
 				<Newsletter/>
 				<Footer/>
 			</div>
- 			}
-        </div>
+ 		// 	}
+        // </div>
 	)
 
 }
