@@ -2,6 +2,7 @@ import Hero from './Hero';
 import Features from './Features';
 import Testimonials from './Testimonials';
 import Newsletter from './Newsletter';
+import Dropdown from './Dropdown';
 import Footer from './Footer';
 import { useState, useEffect } from 'react';
 
@@ -31,17 +32,22 @@ function useWindowSize() {
 	return windowSize;
 }
 
-const Home = () => {
+const Home = ({show}) => {
     const size = useWindowSize();
-    return (
-        <div>
-            <Hero/>
-            <Features width={size.width}/>
-            <Testimonials/>
-            <Newsletter/>
-            <Footer/>
+	return(
+		<div>
+			{show ? <Dropdown/> : 
+			<div>
+				<Hero/>
+				<Features width={size.width}/>
+				<Testimonials/>
+				<Newsletter/>
+				<Footer/>
+			</div>
+ 			}
         </div>
-    )
+	)
+
 }
 
 export default Home

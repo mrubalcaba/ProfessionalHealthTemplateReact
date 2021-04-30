@@ -19,7 +19,8 @@ ul{
 }
 
 .hero-container{
-    height: 80vh;
+    // height: 80vh;
+    height: 100vh;
 
     .nav-background-img{
         position: relative;
@@ -317,7 +318,9 @@ nav.desktop-nav{
 //may need to change to Link after***********
 //****************************************
     li > a{
-        color: rgb(22, 29, 41);
+        // color: rgb(22, 29, 41);
+        color: rgb(255, 255, 255);
+
         // color: white;
         text-decoration: none;
         padding: .5em .75em;
@@ -348,16 +351,18 @@ nav.desktop-nav{
 //dropdown styling
 .exit-container{
     position: fixed;
-    top: 1vh;
-    right: 1vh;
+    top: 0;
+    right: 0;
     margin: 0;
     // background:rgb(203, 178, 212);
     // background: rgb(41,58,78);
     background: rgb(22, 29, 41);
 
     // border: 1px solid green;
-    width: 15vh;
-    height: 35.5vh;
+    // width: 15vh;
+    // height: 35.5vh;
+    width: 100vw;
+    height: 100vh;
 
     .exit-toggler{
         position: absolute;
@@ -375,18 +380,24 @@ nav.desktop-nav{
     }
 
     .dropdown-menu {
-        right: 0;
-        text-align: right;
-        position: absolute;
-        top: 7vh;
+        width: 100vw;
+        margin-top: 10vh;
+        // top: 7vh;
+        // right: 0;
+        border: 1px solid white;
+        // position: absolute;
+       
     }
 
     .dropdown-menu > li{
         width: 14vh;
-        margin: 0;
+        // margin-left: 2vh;
         padding: 1vh 1vh 1vh 0;
         font-size: 0.9em;
-        // border: 2px solid black;
+        border: 2px solid whitesmoke;
+        text-align: center;
+        margin: 1vh auto;
+        overflow: hidden;
 
         &:hover{
             // background: rgb(25,34,50);
@@ -406,6 +417,10 @@ nav.desktop-nav{
         }
     }
 }
+
+.dropdown-menu::-webkit-scrollbar {
+    display: none;
+  }
 
 .navbar-collapse:not(.show){
     display: none;

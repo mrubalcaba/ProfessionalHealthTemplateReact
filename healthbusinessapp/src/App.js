@@ -12,11 +12,16 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 function App() {
+	const [show, showToggle] = useState(false);
+    const toggle = () => {
+        showToggle(!show);
+    }
+
 	return (
 		<Router>
 			<div>
-				<Navbar>
-					<Route exact={true} path="/" component={Home} />
+				<Navbar toggle={toggle} show={show}>
+					<Route exact={true} path="/" component={() => <Home show={show} />} />
 					<Route exact={true} path="/YouFeature" component={YouFeature} />
 				</Navbar>
 			</div>

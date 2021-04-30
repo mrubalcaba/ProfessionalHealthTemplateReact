@@ -2,12 +2,7 @@ import { useState } from "react";
 import {Link} from 'react-router-dom';
 import Dropdown from "./Dropdown";
 
-const Navbar = (props) => {
-    const [show, showToggle] = useState(false);
-    const toggle = () => {
-        showToggle(!show);
-    }
-
+const Navbar = ({show, toggle, children}) => {
     return (
         
     <div>
@@ -31,7 +26,7 @@ const Navbar = (props) => {
                 </div>
             </div>  
         </nav>
-        {props.children}
+        {children}
     </div>
     )
 }
