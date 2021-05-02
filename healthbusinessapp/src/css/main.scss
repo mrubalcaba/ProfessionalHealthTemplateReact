@@ -12,6 +12,10 @@ body{
     font-family: "Poppins", sans-serif;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -266,13 +270,14 @@ ul{
 }
 //navbar stylings
 nav.desktop-nav{
-    position: relative;
+    position: fixed;
     z-index: 999;
 
     .container{
         // padding-left: 10vh;
-        position: absolute;
-        top: 3vh;
+        // position: absolute;
+        width: 100vw;
+        margin-top: 2vh;
         display: flex;
         place-content: space-between;
         // border: 1px solid blue;
@@ -319,7 +324,18 @@ nav.desktop-nav{
     ul.primary-nav{
         margin-right: 2vw;
         display: flex;
-        // border: 1px solid purple;
+        border: 1px solid purple;
+    }
+
+    .navlink-selected{
+        // text-decoration: underline;
+        padding: 0 .75em;
+        border-bottom: 1px solid white;
+    }
+
+    .navlink{
+        text-decoration: none;
+        padding: 0 .75em;
     }
 
     .get-started-cta{
@@ -333,9 +349,7 @@ nav.desktop-nav{
 //****************************************
     li > a{
         // color: rgb(22, 29, 41);
-        color: rgb(255, 255, 255);
-
-        // color: white;
+        color: white;       
         text-decoration: none;
         padding: .5em .75em;
         font-size: 1.1em;
@@ -706,16 +720,32 @@ nav.desktop-nav{
 //         // object-fit: cover;
 //     }
 // }
+.you-content{
+    // border: 1px solid red;
+    p{
+        margin-bottom: 4vh;
+        // border: 1px solid blue;
+    }
+}
 
 .you-ex-features{
-    margin-left: 2em;
+    padding: 8em 0 8em 5em;
+    background-color: rgb(240, 240, 240);
 
     h2{
+        margin: 0;
         font-size: 32px;
-        font-weight: bolder;
     }
 
     .ex-features{
-        margin-left: 8em;
+        margin-left: 17em;
+
+        h3{
+            font-size: 2em;
+        }
+
+        p{
+            padding-bottom: 2em;
+        }
     }
 }
