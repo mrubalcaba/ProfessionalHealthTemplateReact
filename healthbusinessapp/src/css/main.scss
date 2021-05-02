@@ -31,7 +31,7 @@ ul{
         display: flex;
         justify-content: center;
         overflow: hidden;
-        aspect-ratio: 21/9;
+        // aspect-ratio: 16/9;
         height: 100%;
         width: 100%;
     }
@@ -45,14 +45,14 @@ ul{
     .hero{
         position: absolute;
         z-index: 1000;
-        top: 50%;
+        top: 45%;
         left: 2vw;
     }
 
     .hero > h1 {
         white-space: pre-wrap;
         margin: 0 4vh;
-        width: 50vw;
+        width: 40vw;
         color: white;
         text-align: left;
         font-size: 4em;
@@ -329,13 +329,16 @@ nav.desktop-nav{
 
     .navlink-selected{
         // text-decoration: underline;
-        padding: 0 .75em;
+        // padding: 0 .75em;
+        margin: 0 .75em;
         border-bottom: 1px solid white;
     }
 
     .navlink{
-        text-decoration: none;
+        // text-decoration: none;
         padding: 0 .75em;
+        margin: 0;
+        // border: 1px solid blue;
     }
 
     .get-started-cta{
@@ -343,17 +346,30 @@ nav.desktop-nav{
         padding: .65em 0.8em;
         color: black;
         background: white;
-        font-size: 1.1em;
+        // font-size: 1.1em;
     }
 //may need to change to Link after***********
 //****************************************
+    .login{
+        color: white;
+        padding: 0 .75em;
+        // border: 1px solid blue;
+        cursor: pointer;
+        // font-size: 1.1em;
+        // text-align: right;
+
+        &:hover{
+            font-weight: bold;
+        }
+    }
+
     li > a{
         // color: rgb(22, 29, 41);
         color: white;       
         text-decoration: none;
         padding: .5em .75em;
         font-size: 1.1em;
-        text-align: right;
+        // text-align: right;
 
         &:hover{
             font-weight: bold;
@@ -683,22 +699,42 @@ nav.desktop-nav{
 ////////////////////////////////////////////////////////////////////
 //login.js styling
 .login-container{
-    // font-family: 'Clarkson', 'Proxima Nova', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    // font-size: 13px;
+    font-family: 'Clarkson', 'Proxima Nova', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    border: 1px solid red;
     // font-weight: 300;
-    box-shadow: 0 2px 114px 0 rgb(0 0 0 / 30%);
     position: absolute;
-    display: block;//
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    left: calc(50% - 240px);
+    margin-top: 15%;
+    // top: 100%;
+    // right: 40%;
+    // transform: translateX(-50%) translateY(-50%);
+    // transform: translateY(100%);
     width: 480px;
     background-color: white;
     box-sizing: border-box;
     padding: 44px;
     padding-bottom: 22px;
     border-radius: 4px;
+
+    h1{
+        margin-top: 0;
+        font-size: 24px;
+        // line-height: 41px;
+        font-weight: 400;
+        color: #3e3e3e;
+        text-align: center;
+    }
+    
+    .login-form{
+        display: block;
+    }
+
+    // .login-input{
+    //     display: block;
+    // }
 }
+
 
 //You Feature --******************************************************
 // .you-feature-container{

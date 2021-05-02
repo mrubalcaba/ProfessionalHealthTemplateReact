@@ -17,10 +17,16 @@ function App() {
         showToggle(!show);
     }
 
+	//navitem login
+	const [login, showLogin] = useState(false);
+	const loginPage = () => {
+		showLogin(!login);
+	}
+
 	return (
 		<Router>
 			<div>
-				<Navbar toggle={toggle} show={show}>
+				<Navbar toggle={toggle} show={show} loginPage={loginPage} login={login}>
 					<Route exact={true} path="/" component={() => <Home show={show} />} />
 					<Route exact={true} path="/YouFeature" component={YouFeature} />
 				</Navbar>

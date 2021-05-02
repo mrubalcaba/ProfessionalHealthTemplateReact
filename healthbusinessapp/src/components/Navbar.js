@@ -3,8 +3,10 @@ import {Link} from 'react-router-dom';
 import Dropdown from "./Dropdown";
 import NavItem from "./NavItem";
 import YouFeature from "./YouFeature";
+import Login from "./Login";
 
-const Navbar = ({show, toggle, children}) => {
+const Navbar = ({show, toggle, children, login, loginPage}) => {
+    //navitem pages
     const [selected, showSelected] = useState({you:false, blog:false, about:false, contact:false});
     const current = () => {
         showSelected(!selected);
@@ -43,7 +45,9 @@ const Navbar = ({show, toggle, children}) => {
                             <NavItem path={'Blog'} selected={selected.blog} label={'Blog'} set={selectBlog}></NavItem>
                             <NavItem path={'About'} selected={selected.about} label={'About'} set={selectAbout}></NavItem>
                             <NavItem path={'Contact'} selected={selected.contact} label={'Contact'} set={selectContact}></NavItem>
-                            <li><a href="/">Login</a></li>                                
+                            <li><div className="login" onClick={loginPage}>Login</div></li> 
+                            {login ? <Login loginPage={loginPage}/> : null}
+                               
                             {/* <Link to="YouFeature" onClick={current}>You</Link> */}
                             <li><a className="get-started-cta" href="/">Get Started</a></li>
                         </ul>
