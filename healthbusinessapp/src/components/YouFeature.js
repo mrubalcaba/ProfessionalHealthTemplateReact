@@ -2,10 +2,10 @@ import Footer from "./Footer";
 
 const YouFeature = () => {
     return (
-            <div>
+            <div className="you-feature">
                 <div className="you-feature-container hero-container">
                     <div className="you-background-img nav-background-img">
-                        <img src="./../images/mountains.jpg" alt="person" className="hero-background-img you-hero-background-img"/>
+                        <img src="./../images/lifestyle.jpg" alt="person" className="hero-background-img you-hero-background-img"/>
                         <section className="you-content hero">
                             <p>Journey 1 - Relationship with You</p>
                             <h1>You belong here just as much as anyone else.</h1>
@@ -27,7 +27,7 @@ const YouFeature = () => {
                 </div>
                 <div className="feature-msg">
                     <div className="feature-img-background">
-                        <img src="./../images/mountains.jpg" alt="person" className="you-feature-img"/>
+                        <img src="./../images/creative.jpg" alt="person" className="you-feature-img"/>
                         <section className="you-feature-content">
                             <h1>If you face your flaws, you’ll notice the change.</h1>
                             <p>Lorem ipsum dolor sit amet nullam vel ultricies metus.</p>
