@@ -28,12 +28,16 @@ const Navbar = ({show, toggle, children, login, loginPage}) => {
         showSelected({you:false, blog:false, about:false, contact:!selected.contact});
     }
 
+    const selectHome = () => {
+        showSelected({you:false, blog:false, about:false, contact:false});
+    }
+
     console.log(selected);
     return ( 
         <div>
             <nav className="desktop-nav">
                 <div className="navbar-container container">
-                    <Link className="logo" to="/">Almar</Link>
+                    <Link className="logo" to="/" onClick={selectHome}>Almar</Link>
                     {show ? null : <button className="navbar-toggler menu-toggler" onClick={toggle} type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" 
                     aria-expanded="false" aria-label="Toggle Navigation">
                         <img id="mobile-cta" className="mobile-menu" src="./../images/menu.svg" alt="Open Navigation"/>

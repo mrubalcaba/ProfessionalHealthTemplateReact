@@ -33,7 +33,11 @@ const YouFeature = () => {
                             <p>Lorem ipsum dolor sit amet nullam vel ultricies metus.</p>
                         </section>
                     </div>
-                </div>  
+                </div>
+                <div className="you-get-started">
+                    <h1>Start a new relationship with yourself now.</h1>
+                    <div className="free-chat-cta">Free 30-min chat</div>
+                </div> 
                 <Footer/>
            </div>
        

@@ -13,8 +13,8 @@ const Login = () => {
                 <button className="sign-in-btn">Sign In</button>
             </form>
             <footer className="login-footer">
-                <a href="/">Forgot Password?</a>
-                <a href="/">Create Account</a>
+                <a href="/"><span className="login-forgot-password">Forgot Password?</span></a> 
+                <a href="/"><span>Create Account</span></a>
             </footer>
         </div>
     )

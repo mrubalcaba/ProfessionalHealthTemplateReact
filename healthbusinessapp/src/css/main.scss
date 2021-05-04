@@ -44,7 +44,7 @@ ul{
 
     .hero{
         position: absolute;
-        z-index: 1000;
+        z-index: 900;
         top: 45%;
         left: 2vw;
     }
@@ -228,7 +228,7 @@ ul{
     }
 
     .container{
-        padding: 2em 1.5em;
+        padding: 5em 1.5em;
     }
 
     .left-footer > p{
@@ -271,7 +271,7 @@ ul{
 //navbar stylings
 nav.desktop-nav{
     position: fixed;
-    z-index: 999;
+    z-index: 900;
 
     .container{
         // padding-left: 10vh;
@@ -324,7 +324,7 @@ nav.desktop-nav{
     ul.primary-nav{
         margin-right: 2vw;
         display: flex;
-        border: 1px solid purple;
+        // border: 1px solid purple;
     }
 
     .navlink-selected{
@@ -699,17 +699,13 @@ nav.desktop-nav{
 ////////////////////////////////////////////////////////////////////
 //login.js styling
 .login-container{
+    z-index: 1500;
     font-family: 'Clarkson', 'Proxima Nova', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 13px;
-    border: 1px solid red;
     // font-weight: 300;
     position: absolute;
     left: calc(50% - 240px);
     margin-top: 15%;
-    // top: 100%;
-    // right: 40%;
-    // transform: translateX(-50%) translateY(-50%);
-    // transform: translateY(100%);
     width: 480px;
     background-color: white;
     box-sizing: border-box;
@@ -731,8 +727,51 @@ nav.desktop-nav{
     }
 
     // .login-input{
-    //     display: block;
+    //     padding: 11px 5.5px;
     // }
+
+    .login-input > input{
+        width: 100%;
+        font-size: 13px;
+        line-height: 22px;
+        border: 1px solid transparent;
+        border-top: none;
+        border-bottom: 1px solid #DDD;
+        border-radius: 3px;
+        // box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+        padding: 8px 6px;
+    }
+
+    .login-form > button{
+        background-color: rgb(62,62,62);
+        color: white;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 100%;
+        padding: 1em 0;
+    }
+
+    .sign-in-cta{
+       background-color: rgb(62,62,62);
+       color: white;
+    }
+
+    .login-footer{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .login-footer > a{
+        text-decoration: none;
+    }
+
+    .login-footer > a > span{
+        color: rgb(62,62,62);
+    }
+
+    .login-forgot-password{
+        padding-right: 5px;
+    }
 }
 
 
@@ -786,22 +825,6 @@ nav.desktop-nav{
     }
 }
 
-// .feature-msg{
-//     height: 75%;
-//     width: 90%;
-//     margin: 0 auto;
-//     border: 1px solid blue;
-
-//     .feature-img-background{
-//         height: 100%;
-//         border: 1px solid green;
-//     }
-
-//     .you-feature-img{
-//         height: 100%;
-//     }
-// }
-
 .you-feature{
     background-color: rgb(240, 240, 240);
 }
@@ -810,8 +833,8 @@ nav.desktop-nav{
     // height: 80vh;
     height: 75vh;
     width: 90%;
-    margin: 0 auto;
-    border: 1px solid blue;
+    margin: 0 auto ;
+    // border: 1px solid blue;
 
     .feature-img-background{
         position: relative;
@@ -832,16 +855,16 @@ nav.desktop-nav{
 }
 
 .you-feature-content{
-    border: 1px solid red;
+    // border: 1px solid red;
     position: absolute;
-    z-index: 1000;
-    // top: 1000px;
-    left: 2vw;
+    z-index: 900;
+    top: 55%;
+    left: 5vw;
 
     h1 {
         // white-space: pre-wrap;
         margin: 0 4vh;
-        width: 40vw;
+        width: 45vw;
         color: white;
         text-align: left;
         font-size: 4em;
@@ -855,4 +878,32 @@ nav.desktop-nav{
         margin-top: 4vh;
     }
   
+}
+
+.you-get-started{
+    background-color: rgb(22, 29, 41);
+    padding: 8vh 0 15vh 4vh;
+    margin-top: 5em;
+    color: white;
+    font-size: 2em;
+
+    .free-chat-cta{
+        padding: 1em 0.5em;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+        background-color: white;
+        text-align: center;
+        height: 1.5em;
+        width: 10em;
+        font-size: 14px;
+        color: rgb(25,34,50);
+        font-weight: bold;
+        border: 1px solid white;
+
+
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+
 }
