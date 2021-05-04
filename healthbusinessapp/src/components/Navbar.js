@@ -13,19 +13,28 @@ const Navbar = ({show, toggle, children, login, loginPage}) => {
     }
 
     const selectYou = () => {
-        showSelected({you:!selected.you, blog:false, about:false, contact:false});
+        if(selected.you === false){
+            showSelected({you:!selected.you, blog:false, about:false, contact:false});
+        } 
+        
     }
         
     const selectBlog = () => {
-        showSelected({you:false, blog:!selected.blog, about:false, contact:false});
+        if(selected.blog === false) {
+            showSelected({you:false, blog:!selected.blog, about:false, contact:false});
+        }
     }
 
     const selectAbout = () => {
-        showSelected({you:false, blog:false, about:!selected.about, contact:false});
+        if(selected.about === false){
+            showSelected({you:false, blog:false, about:!selected.about, contact:false});
+        }
     }
 
     const selectContact = () => {
-        showSelected({you:false, blog:false, about:false, contact:!selected.contact});
+        if(selected.contact === false){
+            showSelected({you:false, blog:false, about:false, contact:!selected.contact});
+        }
     }
 
     const selectHome = () => {
