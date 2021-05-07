@@ -1,4 +1,4 @@
-import React from 'react'
+import {Link} from 'react-router-dom';
 
 const Blog = () => {
     return (
@@ -9,6 +9,62 @@ const Blog = () => {
                 <p className="blog-header-text">Learnings, teachings and tips & tricks for 
                 anyone to reference during difficult times, stressful workdays and moments 
                 when manifesting your true self.</p>
+            </div>
+            <div className="blog-basic-grid">
+                <article>
+                    <Link to="/">
+                        <img className="blog-img" src="./../images/person-looking-out.jpg" alt="word-breathe-nature"/>
+                    </Link>
+                    <div></div>
+                    <h1></h1>
+                    <div></div>
+                    <a href=""></a>
+                </article>
+                <article>
+                    <Link to="/">
+                        <img className="blog-img" src="./../images/railroad-walking.jpg" alt="word-breathe-nature"/>
+                    </Link>
+                    <div></div>
+                    <h1></h1>
+                    <div></div>
+                    <a href=""></a>
+                </article>
+                <article>
+                    <Link to="/">
+                        <img className="blog-img" src="./../images/boundaries.jpg" alt="word-breathe-nature"/>
+                    </Link>
+                    <div></div>
+                    <h1></h1>
+                    <div></div>
+                    <a href=""></a>
+                </article>
+                <article>
+                    <Link to="/">
+                        <img className="blog-img" src="./../images/insp-quote.jpg" alt="word-breathe-nature"/>
+                    </Link>
+                    <div></div>
+                    <h1></h1>
+                    <div></div>
+                    <a href=""></a>
+                </article>
+                <article>
+                    <Link to="/">
+                        <img className="blog-img" src="./../images/creative.jpg" alt="word-breathe-nature"/>
+                    </Link>
+                    <div></div>
+                    <h1></h1>
+                    <div></div>
+                    <a href=""></a>
+                </article>
+                <article>
+                    <Link to="/">
+                        <img className="blog-img" src="./../images/say-si.jpg" alt="word-breathe-nature"/>
+                    </Link>
+                    <div></div>
+                    <h1></h1>
+                    <div></div>
+                    <a href=""></a>
+                </article>
             </div>
         </div>
     )

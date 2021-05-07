@@ -778,26 +778,7 @@ nav.desktop-nav{
 }
 
 
-//You Feature --******************************************************
-// .you-feature-container{
-//     height: 80vh;
-
-//     .you-background-img{
-//         position: relative;
-//         display: flex;
-//         justify-content: center;
-//         overflow: hidden;
-//         aspect-ratio: 21/9;
-//         height: 100%;
-//         width: 100%;
-//     }
-
-//     .you-hero-background-img{
-//         height: 100%;
-//         width: 100%;
-//         // object-fit: cover;
-//     }
-// }
+//You Feature ******************************************************
 .you-content{
     // border: 1px solid red;
     p{
@@ -909,4 +890,16 @@ nav.desktop-nav{
         }
     }
 
+}
+
+//Blog styling *************************************
+.blog-basic-grid{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    grid-column-gap: 45px;
+    grid-row-gap: 50px;
+    grid-auto-rows: min-content;
+    width: 90%;
+    padding: 0 4vw;
+    margin: 0 auto;
 }
