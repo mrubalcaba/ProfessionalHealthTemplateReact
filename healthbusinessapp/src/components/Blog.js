@@ -11,7 +11,7 @@ const Blog = () => {
                 when manifesting your true self.</p>
             </div>
             <div className="blog-basic-grid">
-                <article>
+                <article className="blog-article">
                     <Link to="/">
                         <img className="blog-img" src="./../images/person-looking-out.jpg" alt="word-breathe-nature"/>
                     </Link>
@@ -20,7 +20,7 @@ const Blog = () => {
                     <div></div>
                     <a href=""></a>
                 </article>
-                <article>
+                <article className="blog-article">
                     <Link to="/">
                         <img className="blog-img" src="./../images/railroad-walking.jpg" alt="word-breathe-nature"/>
                     </Link>
@@ -29,7 +29,7 @@ const Blog = () => {
                     <div></div>
                     <a href=""></a>
                 </article>
-                <article>
+                <article className="blog-article">
                     <Link to="/">
                         <img className="blog-img" src="./../images/boundaries.jpg" alt="word-breathe-nature"/>
                     </Link>
@@ -38,7 +38,7 @@ const Blog = () => {
                     <div></div>
                     <a href=""></a>
                 </article>
-                <article>
+                <article className="blog-article">
                     <Link to="/">
                         <img className="blog-img" src="./../images/insp-quote.jpg" alt="word-breathe-nature"/>
                     </Link>
@@ -47,7 +47,7 @@ const Blog = () => {
                     <div></div>
                     <a href=""></a>
                 </article>
-                <article>
+                <article className="blog-article">
                     <Link to="/">
                         <img className="blog-img" src="./../images/creative.jpg" alt="word-breathe-nature"/>
                     </Link>
@@ -56,7 +56,7 @@ const Blog = () => {
                     <div></div>
                     <a href=""></a>
                 </article>
-                <article>
+                <article className="blog-article">
                     <Link to="/">
                         <img className="blog-img" src="./../images/say-si.jpg" alt="word-breathe-nature"/>
                     </Link>
