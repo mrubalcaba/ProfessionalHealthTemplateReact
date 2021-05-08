@@ -66,6 +66,20 @@ const Blog = () => {
                     <a href=""></a>
                 </article>
             </div>
+            <div className="blog-section-cta">
+                <div className="blog-content-wrapper">
+                    <div className="blog-content-cta">
+                        <h2>Start your journey</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur 
+                            adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
+                    <div className="blog-cta">
+                        <a className="get-started-cta" href="/">Get Started</a>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
