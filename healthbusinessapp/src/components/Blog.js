@@ -15,19 +15,25 @@ const Blog = () => {
                     <Link to="/">
                         <img className="blog-img" src="./../images/person-looking-out.jpg" alt="word-breathe-nature"/>
                     </Link>
-                    <div></div>
-                    <h1></h1>
-                    <div></div>
-                    <a href=""></a>
+                    <div>3/11/19</div>
+                    <h1>On Letting Go</h1>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
+                        ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
+                        sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
+                    </div>
+                    <a href="">Read More</a>
                 </article>
                 <article className="blog-article">
                     <Link to="/">
                         <img className="blog-img" src="./../images/railroad-walking.jpg" alt="word-breathe-nature"/>
                     </Link>
-                    <div></div>
-                    <h1></h1>
-                    <div></div>
-                    <a href=""></a>
+                    <div>3/11/19</div>
+                    <h1>On Letting Go</h1>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
+                        ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
+                        sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
+                    </div>
+                    <a href="">Read More</a>
                 </article>
                 <article className="blog-article">
                     <Link to="/">
