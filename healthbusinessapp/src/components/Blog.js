@@ -14,11 +14,11 @@ const Blog = () => {
             <div className="blog-basic-grid">
                 <article className="blog-article">
                     <Link to="/">
-                        <img className="blog-img" src="./../images/get-started.jpg" alt="word-breathe-nature"/>
+                        <img className="blog-img" src="./../images/get-started.jpg" alt="woman looking at phone for work"/>
                     </Link>
-                    <div>3/11/19</div>
+                    <div className="blog-date">3/11/19</div>
                     <h1>On Letting Go</h1>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
+                    <div className="blog-msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
                         ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
                         sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
                     </div>
@@ -28,9 +28,9 @@ const Blog = () => {
                     <Link to="/">
                         <img className="blog-img" src="./../images/railroad-walking.jpg" alt="word-breathe-nature"/>
                     </Link>
-                    <div>3/11/19</div>
+                    <div className="blog-date">3/11/19</div>
                     <h1>Toxic Relationships</h1>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
+                    <div className="blog-msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
                         ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
                         sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
                     </div>
@@ -40,9 +40,9 @@ const Blog = () => {
                     <Link to="/">
                         <img className="blog-img" src="./../images/boundaries.jpg" alt="word-breathe-nature"/>
                     </Link>
-                    <div>3/11/19</div>
+                    <div className="blog-date">3/11/19</div>
                     <h1>Setting Boundaries</h1>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
+                    <div className="blog-msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
                         ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
                         sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
                     </div>
@@ -52,9 +52,9 @@ const Blog = () => {
                     <Link to="/">
                         <img className="blog-img" src="./../images/insp-quote.jpg" alt="word-breathe-nature"/>
                     </Link>
-                    <div>3/11/19</div>
+                    <div className="blog-date">3/11/19</div>
                     <h1>Change for the Better</h1>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
+                    <div className="blog-msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
                         ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
                         sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
                     </div>
@@ -64,9 +64,9 @@ const Blog = () => {
                     <Link to="/">
                         <img className="blog-img" src="./../images/creative.jpg" alt="word-breathe-nature"/>
                     </Link>
-                    <div>3/11/19</div>
+                    <div className="blog-date">3/11/19</div>
                     <h1>It's Okay to Fail</h1>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
+                    <div className="blog-msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
                         ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
                         sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
                     </div>
@@ -76,9 +76,9 @@ const Blog = () => {
                     <Link to="/">
                         <img className="blog-img" src="./../images/say-si.jpg" alt="word-breathe-nature"/>
                     </Link>
-                    <div>3/11/19</div>
+                    <div className="blog-date">3/11/19</div>
                     <h1>Say Yes</h1>
-                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
+                    <div className="blog-msg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque 
                         ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
                         sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
                     </div>
@@ -88,15 +88,16 @@ const Blog = () => {
             <div className="blog-section-cta">
                 <div className="blog-content-wrapper">
                     <div className="blog-content-cta">
-                        <h2 className="journey-msg">Start your journey</h2>
+                        <h2 className="journey-msg-header">Start your journey</h2>
                         <p className="journey-msg"> Lorem ipsum dolor sit amet, consectetur 
                             adipiscing elit, sed do eiusmod tempor 
                             incididunt ut labore et dolore magna aliqua.
                         </p>
+                        <div className="blog-cta">
+                            <a className="get-started-cta" href="/">Get Started</a>
+                        </div>
                     </div>
-                    <div className="blog-cta">
-                        <a className="get-started-cta" href="/">Get Started</a>
-                    </div>
+                   
                 </div>
             </div>
             <Footer/>
