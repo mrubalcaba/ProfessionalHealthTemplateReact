@@ -984,3 +984,35 @@ nav.desktop-nav{
         text-decoration: none;
     }
 }
+
+//About styling
+.about-container{
+    background-color: rgb(240, 240, 240);
+    padding-top: 15vh;
+}
+
+.about-container > h3{
+    text-align: center;
+    font-size: 44px;
+    padding-bottom: 5vh;
+}
+
+.about-content{
+    // border: 1px solid red;
+    margin: 0 auto;
+    width: 70%;
+
+    .about-img{
+        margin-left: 25%;
+        width: 50%;
+        height: 75vh;
+        padding-bottom: 5vh;
+        // border: 1px solid blue;
+    }
+
+    p{
+        font-size: 24px;
+        text-align: center;
+    }
+}
+

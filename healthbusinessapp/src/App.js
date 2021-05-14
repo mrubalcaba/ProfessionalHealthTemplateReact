@@ -3,6 +3,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import YouFeature from './components/YouFeature';
 import Blog from './components/Blog';
+import About from './components/About';
 import { useState, useEffect } from 'react';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
@@ -26,6 +27,7 @@ function App() {
 					<Route exact={true} path="/" component={() => <Home show={show} />} />
 					<Route exact={true} path="/YouFeature" component={YouFeature} />
 					<Route exact={true} path="/Blog" component={Blog} />
+					<Route exact={true} path="/About" component={About} />
 				</Navbar>
 			</div>
 		</Router>
