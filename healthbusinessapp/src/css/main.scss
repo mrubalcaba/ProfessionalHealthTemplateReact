@@ -999,7 +999,7 @@ nav.desktop-nav{
 
 .about-content{
     // border: 1px solid red;
-    margin: 0 auto;
+    margin: 0 auto 15vh;
     width: 70%;
 
     .about-img{
@@ -1013,6 +1013,7 @@ nav.desktop-nav{
     p{
         font-size: 24px;
         text-align: center;
+        line-height: 1.8;
     }
 }
 
@@ -1020,21 +1021,57 @@ nav.desktop-nav{
     background-color: rgb(25,34,50);
     color: white;
     text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
 
-    // .about-people{
-    //     border: 1px solid red;
-    // }
+    h3{
+        font-size: 44px;
+        margin-bottom: 10vh;
+    }
 
-    // .about-people > p{
-    //     width: 50%;
-    //     // border: 1px solid red;
-    // }
+    .about-people{
+        width: 40%;
+        margin-left: 10vh;
+        // border: 1px solid blue;
+    }
 
-    .about-people > .test{
+    .people-quote{
+        margin: 0 10vh 5vh;
         display: inline-block;
     }
 
-    .people-quote > p{
+    .confident-quote{
+        margin: 0 10vh;
         display: inline-block;
     }
+
+    .about-people > p{
+        display: block;
+    }
+
 }
+
+.about-awards{
+    text-align: center;
+    margin: 0 auto 5vh;
+    // border: 1px solid red;
+
+    p{
+        display: inline-block;
+        // border: 1px solid blue;
+    }
+
+    .second-award{
+        margin-left: 10vh;
+    }
+
+    .middle-award{
+        margin: 0 10vh;
+    }
+
+    .fourth-award{
+        margin-right: 10vh;
+    }
+
+}
+

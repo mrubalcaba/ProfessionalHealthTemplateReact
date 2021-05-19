@@ -15,28 +15,33 @@ const About = () => {
             </div>
             <div className="about-people-container">
                 <h3>What People Are Saying</h3>
-                <div className="about-people">
+                <div className="about-people people-quote">
                     <p>" Jessica taught me so much about a subject 
                         I thought I was already an expert on: myself! "</p>
                     <p>- KATY F.</p>
-                    <p className="test">" I was able to rekindle certain relationships
-                        with others from Jessica’s teachings. "</p>
-                    <p>- ELIZABETH B.</p>
                 </div>
-                {/* <div className="about-people people-quote">
+                <div className="about-people people-quote">
                     <p>" I was able to rekindle certain relationships
                         with others from Jessica’s teachings. "</p>
                     <p>- ELIZABETH B.</p>
-                </div> */}
-                <div className="about-people">
+                </div>
+                <div className="about-people confident-quote">
                     <p>" My confidence in the workplace has gotten so much better! "</p>
                     <p>- SARAH P.</p>
                 </div>
-                <div className="about-people">
+                <div className="about-people confident-quote">
                     <p>" I let anxiety take over my life for too long. Now I have 
                         the strength to control my emotions. "</p>
                     <p>- VICTORIA G.</p>
                 </div>
+            </div>
+            <div className="about-awards">
+                <h4>Awards</h4>
+                <p>Award One</p>
+                <p className="second-award">Award Two</p>
+                <p className="middle-award">Award Three</p>
+                <p className="fourth-award">Award Four</p>
+                <p>Award Five</p>
             </div>
             <div className="feature-msg">
                     <div className="feature-img-background">
