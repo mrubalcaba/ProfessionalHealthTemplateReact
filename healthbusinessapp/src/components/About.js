@@ -43,12 +43,11 @@ const About = () => {
                 <p className="fourth-award">Award Four</p>
                 <p>Award Five</p>
             </div>
-            <div className="feature-msg">
+            <div className="about-msg">
                     <div className="feature-img-background">
                         <img src="./../images/creative.jpg" alt="person" className="you-feature-img"/>
-                        <section className="you-feature-content">
-                            <h1>If you face your flaws, you’ll notice the change.</h1>
-                            <p>Lorem ipsum dolor sit amet nullam vel ultricies metus.</p>
+                        <section className="about-feature-content">
+                            <h1>Motivation comes from within - <br/> and I'm here to help you activate it.</h1>
                         </section>
                     </div>
                 </div>
