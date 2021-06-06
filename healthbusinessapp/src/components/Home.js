@@ -2,7 +2,6 @@ import Hero from './Hero';
 import Features from './Features';
 import Testimonials from './Testimonials';
 import Newsletter from './Newsletter';
-import Dropdown from './Dropdown';
 import Footer from './Footer';
 import { useState, useEffect } from 'react';
 

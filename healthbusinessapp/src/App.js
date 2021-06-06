@@ -4,9 +4,9 @@ import Navbar from './components/Navbar';
 import YouFeature from './components/YouFeature';
 import Blog from './components/Blog';
 import About from './components/About';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
 	const [show, showToggle] = useState(false);

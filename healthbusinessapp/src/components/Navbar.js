@@ -2,15 +2,14 @@ import { useState } from "react";
 import {Link} from 'react-router-dom';
 import Dropdown from "./Dropdown";
 import NavItem from "./NavItem";
-import YouFeature from "./YouFeature";
 import Login from "./Login";
 
 const Navbar = ({show, toggle, children, login, loginPage}) => {
     //navitem pages
     const [selected, showSelected] = useState({you:false, blog:false, about:false, contact:false});
-    const current = () => {
-        showSelected(!selected);
-    }
+    // const current = () => {
+    //     showSelected(!selected);
+    // }
 
     const selectYou = () => {
         if(selected.you === false){

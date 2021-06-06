@@ -22,7 +22,7 @@ const Blog = () => {
                         ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
                         sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
                     </div>
-                    <a href="">Read More</a>
+                    <a href="/">Read More</a>
                 </article>
                 <article className="blog-article">
                     <Link to="/">
@@ -34,7 +34,7 @@ const Blog = () => {
                         ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
                         sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
                     </div>
-                    <a href="">Read More</a>
+                    <a href="/">Read More</a>
                 </article>
                 <article className="blog-article">
                     <Link to="/">
@@ -46,7 +46,7 @@ const Blog = () => {
                         ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
                         sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
                     </div>
-                    <a href="">Read More</a>
+                    <a href="/">Read More</a>
                 </article>
                 <article className="blog-article">
                     <Link to="/">
@@ -58,7 +58,7 @@ const Blog = () => {
                         ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
                         sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
                     </div>
-                    <a href="">Read More</a>
+                    <a href="/">Read More</a>
                 </article>
                 <article className="blog-article">
                     <Link to="/">
@@ -70,7 +70,7 @@ const Blog = () => {
                         ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
                         sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
                     </div>
-                    <a href="">Read More</a>
+                    <a href="/">Read More</a>
                 </article>
                 <article className="blog-article">
                     <Link to="/">
@@ -82,7 +82,7 @@ const Blog = () => {
                         ipsam sapiente, reprehenderit vel deserunt amet labore blanditiis 
                         sequi quos quasi, corrupti perferendis sed nisi provident aspernatur 
                     </div>
-                    <a href="">Read More</a>
+                    <a href="/">Read More</a>
                 </article>
             </div>
             <div className="blog-section-cta">
