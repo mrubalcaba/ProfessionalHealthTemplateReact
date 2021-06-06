@@ -7,7 +7,7 @@ const Hero = () => {
                 <section className="hero">
                     <h1>Find your happiness and learn to put it first.</h1>
                     {/* will reference the same as get started button in header */}
-                    <p><div className="membership-redirect">Chat with me</div></p>
+                    <div className="membership-redirect">Chat with me</div>
                 </section>  
             </div>
         </div>
