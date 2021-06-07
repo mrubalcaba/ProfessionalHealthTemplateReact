@@ -23,7 +23,6 @@ ul{
 }
 
 .hero-container{
-    // height: 80vh;
     height: 100vh;
 
     .nav-background-img{
@@ -31,7 +30,6 @@ ul{
         display: flex;
         justify-content: center;
         overflow: hidden;
-        // aspect-ratio: 16/9;
         height: 100%;
         width: 100%;
     }
@@ -39,7 +37,6 @@ ul{
     .hero-background-img{
         height: 100%;
         width: 100%;
-        // object-fit: cover;
     }
 
     .hero{
@@ -78,21 +75,21 @@ ul{
     padding-top: 0.1vh;
     padding-bottom: 5vh;
 
-    ///should put margin in container of img
-    //if needed
     .feature-img{
         display: block;
         height: 100%;
         width: 90%;
-        // margin: 5vh auto;
-        // margin-right: 1vh;
+        // opacity: 0;
+    }
+
+    .right-feature{
+        margin-bottom: 4vh;
     }
 
     .col{
         width: 90%;
         margin: auto;
         color: white;
-        // border: 1px solid blue;
     }
 
     .self-care-msg{
@@ -596,7 +593,6 @@ nav.desktop-nav{
 
     //unique container img
     .marketing-img{///
-        // padding: 0;
         height: 100%;
         width: 100%;
     }
