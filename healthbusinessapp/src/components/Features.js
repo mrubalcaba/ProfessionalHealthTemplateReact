@@ -34,10 +34,10 @@ const Features = ({ width }) => {
 
 	return (
 		<section className="features">
-			{animate.itemOne ? <HomeFeature hidden={false} prop={refOne}></HomeFeature> :
+			{animate.itemOne ? <HomeFeature feature={'left-feature'} hidden={false} prop={refOne}></HomeFeature> :
 			<HomeFeature hidden={true} prop={refOne}></HomeFeature>}
-			{width <= 1000 ? (
-				<div className="features-container right-feature" ref={refTwo}>
+			{(width <= 1000) ? (
+				<div className="features-container right-feature" hidden={true} ref={refTwo}>
 					<div className="next-features-img ">
 						<img
 							className="feature-img feature-group-img"
@@ -56,7 +56,7 @@ const Features = ({ width }) => {
 					</div>
 				</div>
 			) : (
-				<div className="features-container right-feature" ref={refTwo}>
+				<div className="features-container right-feature" hidden={true} ref={refTwo}>
 					<div className="left-col col">
 						<h1 className="self-care-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
 						<h4>

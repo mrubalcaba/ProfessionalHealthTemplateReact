@@ -1,4 +1,4 @@
-const HomeFeature = ({hidden, prop}) => {
+const HomeFeature = ({hidden, prop, feature}) => {
     if(hidden)  {
         return (<div className="features-container hidden" ref={prop}>
             <div className="marketing-img">
@@ -20,7 +20,7 @@ const HomeFeature = ({hidden, prop}) => {
         </div>)
     }
     else { 
-        return (<div className="features-container left-feature" ref={prop}>
+        return (<div className={`features-container ${feature}`} ref={prop}>
          <div className="marketing-img">
              <img
                  className="feature-img feature-women-img"

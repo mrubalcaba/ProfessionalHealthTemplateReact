@@ -106,11 +106,12 @@ ul{
     }
 
     .right-feature{
+        margin: 0 auto;
         // margin-bottom: 4vh;
         animation: opa 2s; 
         transform: translateY(var(--position-two));
         transition: transform 2s;
-        // border: 1px solid green;
+        border: 1px solid green;
     }
 
     // @keyframes op {
