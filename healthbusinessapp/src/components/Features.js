@@ -19,10 +19,10 @@ const Features = ({ width }) => {
 		const onScroll = () => {
 			const scrollPos = window.scrollY + window.innerHeight;
 			if(divOnePos * 1.1 < scrollPos){
-				document.documentElement.style.setProperty('--position-one', '-80px');
+				document.documentElement.style.setProperty('--position-one', '-40px');
 				setAnimate(state => ({...state, itemOne: true}));
 			}
-			if(divTwoPos * 1.25 < scrollPos){
+			if(divTwoPos * 1.3 < scrollPos){
 				document.documentElement.style.setProperty('--position-two', '-80px');
 				setAnimate(state => ({...state, itemTwo: true}));
 			}
@@ -36,8 +36,8 @@ const Features = ({ width }) => {
 		<section className="features">
 			{animate.itemOne ? <HomeFeature feature={'left-feature'} hidden={false} prop={refOne}></HomeFeature> :
 			<HomeFeature hidden={true} prop={refOne}></HomeFeature>}
-			{(width <= 1000) ? (
-				<div className="features-container right-feature" hidden={true} ref={refTwo}>
+			{animate.itemTwo ? ((width <= 1000) ? (
+				<div className="features-container right-feature" ref={refTwo}>
 					<div className="next-features-img ">
 						<img
 							className="feature-img feature-group-img"
@@ -56,7 +56,26 @@ const Features = ({ width }) => {
 					</div>
 				</div>
 			) : (
-				<div className="features-container right-feature" hidden={true} ref={refTwo}>
+				<div className="features-container right-feature" ref={refTwo}>
+					<div className="left-col col">
+						<h1 className="self-care-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+						<h4>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus hendrerit diam in
+							scelerisque efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+							per inceptos himenaeos. Fusce in elit non magna congue varius id eget erat.
+						</h4>
+						<div className="learn-more">Learn More</div>
+					</div>
+					<div className="next-features-img">
+						<img
+							className="feature-img feature-group-img"
+							src="./../images/group-laughing.jpg"
+							alt="Group laughing"
+						/>
+					</div>
+				</div>
+			)) : (
+				<div className="features-container hidden" ref={refTwo}>
 					<div className="left-col col">
 						<h1 className="self-care-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
 						<h4>
