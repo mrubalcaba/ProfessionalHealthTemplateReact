@@ -3,6 +3,7 @@ import Features from './Features';
 import Testimonials from './Testimonials';
 import Newsletter from './Newsletter';
 import Footer from './Footer';
+import Logo from './Logo';
 import { useState, useEffect } from 'react';
 
 function useWindowSize() {
@@ -39,6 +40,7 @@ const Home = ({show}) => {
 			<div>
 				<Hero/>
 				<Features width={size.width}/>
+				<Logo/>
 				<Testimonials/>
 				<Newsletter/>
 				<Footer/>

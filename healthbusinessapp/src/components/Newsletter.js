@@ -7,18 +7,18 @@ const Newsletter = () => {
                     <p>Sign up with your email address to receive news and updates.</p>
                 </div>
             </header>
-            <div className="newsletter-name-email">
-                <div action="name" className="newsletter-form">
-                    <label htmlFor="name"></label>
-                    <input type="text" id="name" name="name" placeholder="Name"/>
-
-                    <label htmlFor="email"></label>
-                    <input type="email" id="email" name="email" placeholder="Email Address"/>
-
-                    <input type="submit" className="signup-cta" value="Sign Up"/>
-                </div>
             
+            <div className="newsletter-form">
+                <label htmlFor="name"></label>
+                <input type="text" id="name" name="name" placeholder="Name"/>
+
+                <label htmlFor="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email Address"/>
+
+                <input type="submit" className="signup-cta" value="Sign Up"/>
             </div>
+            
+           
             <p className="privacy-note">We respect your privacy.</p>
         </section>
     )
