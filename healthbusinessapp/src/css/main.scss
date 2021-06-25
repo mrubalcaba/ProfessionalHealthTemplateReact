@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
 
 // a{
 //     font-family: "Poppins", sans-serif;
@@ -149,28 +151,34 @@ ul{
 }
 
 .logo-container{
-    margin: 8vh 15vh;
+    padding: 8vh 15vh;
     text-align: center;
-    border: 1px solid green;
+    background-color: rgb(235,234,235);
+    // border: 1px solid green;
 
     .logo{
+        transform: scale(1.25,1.25);
         font-size: 1.5em;
         margin: 0 auto;
         display: inline-block;
-        border: 1px solid blue;
+        // border: 1px solid blue;
     }
 
     .logo-one{
-        transform: scale(1.25,1.25);
         font-weight: 900;
         font-family: 'Noto Sans JP', sans-serif;
     }
 
     .logo-two{
+        font-family: 'Merriweather', serif;
+        font-weight: 300;
         margin: 0 40vh;
     }
 
     .logo-three{
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-family: 'Playfair Display', serif;
         margin-right: 40vh;
     }
 
@@ -180,7 +188,7 @@ ul{
 }
 
 .testimonial-list{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(255,255,255);
     color: white;
     // margin: 0;
     padding: 5em 2em 0.1em;
@@ -227,9 +235,15 @@ ul{
         padding-bottom: 1em;
     }
 
-    newsletter-form > label, input{
+    .newsletter-form > label, input{
         margin: 0 auto;
         display: block;
+    }
+
+    .newsletter-form{
+        .newsletter-email{
+            margin: 0 4vh;
+        }
     }
 
     #name{
@@ -272,7 +286,7 @@ ul{
 }
 //footer styling
 .footer{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(255, 255, 255);
 
     a{
         color: black;

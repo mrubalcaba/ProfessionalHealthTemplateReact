@@ -13,7 +13,7 @@ const Newsletter = () => {
                 <input type="text" id="name" name="name" placeholder="Name"/>
 
                 <label htmlFor="email"></label>
-                <input type="email" id="email" name="email" placeholder="Email Address"/>
+                <input className="newsletter-email" type="email" id="email" name="email" placeholder="Email Address"/>
 
                 <input type="submit" className="signup-cta" value="Sign Up"/>
             </div>
