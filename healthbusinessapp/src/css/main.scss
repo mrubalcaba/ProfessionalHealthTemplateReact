@@ -854,6 +854,10 @@ nav.desktop-nav{
 
 
 //You Feature ******************************************************
+.you-feature{
+    background-color: rgb(255,255,255);
+}
+
 .you-content{
     // border: 1px solid red;
     p{
@@ -866,7 +870,7 @@ nav.desktop-nav{
 
 .you-ex-features{
     padding: 8em 0 8em 5em;
-    // background-color: rgb(240, 240, 240);
+    background-color: rgb(255, 255, 255);
 
     h2{
         margin: 0;
@@ -874,6 +878,7 @@ nav.desktop-nav{
     }
 
     .ex-features{
+        background-color: rgb(255, 255, 255);
         margin-left: 17em;
 
         h3{

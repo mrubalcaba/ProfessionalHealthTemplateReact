@@ -4,6 +4,8 @@ import Testimonials from './Testimonials';
 import Newsletter from './Newsletter';
 import Footer from './Footer';
 import Logo from './Logo';
+import Session from './Session';
+import img from '../images/person-looking-out.jpg'
 import { useState, useEffect } from 'react';
 
 function useWindowSize() {
@@ -42,6 +44,7 @@ const Home = ({show}) => {
 				<Features width={size.width}/>
 				<Logo/>
 				<Testimonials/>
+				<Session img={img}/>
 				<Newsletter/>
 				<Footer/>
 			</div>
