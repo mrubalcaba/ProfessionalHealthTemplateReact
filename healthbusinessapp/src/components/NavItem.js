@@ -20,7 +20,6 @@ const NavItem = ({path, selected, label, set}) => {
                             {label}
                         </Link>
                     </div>}    
-                                {/* <Link to="YouFeature" onClick={current}>You</Link> */}
             </li> 
         </>
     )

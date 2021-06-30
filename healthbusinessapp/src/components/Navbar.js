@@ -7,9 +7,6 @@ import Login from "./Login";
 const Navbar = ({show, toggle, children, login, loginPage}) => {
     //navitem pages
     const [selected, showSelected] = useState({you:false, blog:false, about:false, contact:false});
-    // const current = () => {
-    //     showSelected(!selected);
-    // }
 
     const selectYou = () => {
         if(selected.you === false){
@@ -51,14 +48,14 @@ const Navbar = ({show, toggle, children, login, loginPage}) => {
                         <img id="mobile-cta" className="mobile-menu" src="./../images/menu.svg" alt="Open Navigation"/>
                     </button>}
                 {show ? <Dropdown toggle={toggle}/> : null}
-                    <div className="navbar-collapse" id="navbarResponsive">
+                    <div className="navbar-collapse">
                         <ul className="primary-nav"> 
                             <NavItem path={'YouFeature'} selected={selected.you} label={'You'} set={selectYou}></NavItem>
                             <NavItem path={'Blog'} selected={selected.blog} label={'Blog'} set={selectBlog}></NavItem>
                             <NavItem path={'About'} selected={selected.about} label={'About'} set={selectAbout}></NavItem>
                             <NavItem path={'Contact'} selected={selected.contact} label={'Contact'} set={selectContact}></NavItem>
                             <li><div className="login" onClick={loginPage}>Login</div></li> 
-                            {login ? <Login loginPage={loginPage}/> : null}
+                            {login ? <Login/> : null}
                                
                             {/* <Link to="YouFeature" onClick={current}>You</Link> */}
                             <li><a className="get-started-cta" href="/">Get Started</a></li>

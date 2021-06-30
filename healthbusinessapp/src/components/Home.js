@@ -5,7 +5,7 @@ import Newsletter from './Newsletter';
 import Footer from './Footer';
 import Logo from './Logo';
 import Session from './Session';
-import img from '../images/office-meeting.jpg'
+import img from '../images/office-space.jpg'
 import { useState, useEffect } from 'react';
 
 function useWindowSize() {

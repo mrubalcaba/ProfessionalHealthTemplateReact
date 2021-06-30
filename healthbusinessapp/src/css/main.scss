@@ -217,21 +217,30 @@ ul{
 //session styling
 .session-container{
     // width: 100vw;
-    display: flex;
+    // display: flex;
     position: relative;
-    margin-bottom: 0;
-    
+    text-align: center;
+
     .session-img{
         // transform: scale(0.5,0.5);
         height: 80vh;
-        width: 100%;
+        width: 100vw;
     }
 
     .session-content{
+        background-color: rgba(0, 0, 0, 0.678);
         position: absolute;
         color: white;
-        top: 40%
+        width: 60vw;
+        // left: 35%;
+        left: 20vw;
+        top: 20%;
+
+        h1{
+            font-size: 80px;
+        }
     }
+
 }
 
 //newsletter styling
@@ -362,21 +371,17 @@ ul{
 }
 //navbar stylings
 nav.desktop-nav{
-    position: fixed;
+    position: absolute;
     z-index: 900;
 
     .container{
-        // padding-left: 10vh;
-        // position: absolute;
         width: 100vw;
         margin-top: 2vh;
         display: flex;
         place-content: space-between;
-        // border: 1px solid blue;
     }
 
     .logo{
-        // top: 0.1em;
         margin-left: 2vw;
         text-decoration: none;
         position: relative;
@@ -385,7 +390,6 @@ nav.desktop-nav{
         // color: rgb(22, 29, 41);
         font-size: 2em;
         font-weight: bold;
-        // border: 1px solid red;
 
         &:hover{
             // font-weight: bold;
@@ -414,9 +418,9 @@ nav.desktop-nav{
     }
 
     ul.primary-nav{
+        background-color: rgba(0,0,0,0.9);
         margin-right: 2vw;
         display: flex;
-        // border: 1px solid purple;
     }
 
     .navlink-selected{
@@ -439,8 +443,6 @@ nav.desktop-nav{
         background: white;
         font-size: 0.9em;
         color: rgb(25,34,50);
-        // cursor: pointer;        
-        // display: block;
 
         &:hover{
             font-weight: normal;
@@ -450,10 +452,7 @@ nav.desktop-nav{
     .login{
         color: white;
         padding: 0 .75em;
-        // border: 1px solid blue;
         cursor: pointer;
-        // font-size: 1.1em;
-        // text-align: right;
 
         &:hover{
             font-weight: bold;
