@@ -56,9 +56,7 @@ const Navbar = ({show, toggle, children, login, loginPage}) => {
                             <NavItem path={'Contact'} selected={selected.contact} label={'Contact'} set={selectContact}></NavItem>
                             <li><div className="login" onClick={loginPage}>Login</div></li> 
                             {login ? <Login/> : null}
-                               
-                            {/* <Link to="YouFeature" onClick={current}>You</Link> */}
-                            <li><a className="get-started-cta" href="/">Get Started</a></li>
+                            <li><a href="/">Get Started</a></li>
                         </ul>
                     </div>
                 </div>  

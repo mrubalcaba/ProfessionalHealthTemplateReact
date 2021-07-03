@@ -49,10 +49,14 @@ ul{
     }
 
     .hero{
+        background-color: rgba(0, 0, 0, 0.678);
+        // border: 1px solid red;
         position: absolute;
         z-index: 900;
-        top: 45%;
-        left: 2vw;
+        margin: auto;
+        padding: 25px 0;
+        top: 35%;
+        // left: 30%;
     }
 
     .hero > h1 {
@@ -77,12 +81,12 @@ ul{
 }
 
 .features{
-    // background-color: rgb(191,177,196);
-    // background-color: rgb(203, 178, 212);
     // background-color: rgb(25,34,50);
-    background-color: rgb(25,34,50);
+    // background-color: rgb(41,21,32);
+    // background-color: rgb(18, 29, 49);
+    background-color: rgb(80,110,146);
+    // background-color: rgb(5, 23, 68);
     padding-top: 0.1vh;
-    // padding-bottom: 2vh;
 
     .hidden{
         opacity: 0;
@@ -141,6 +145,7 @@ ul{
         width: 6em;
         padding: 1em;
         font-size: 0.9em;
+        border-radius: 5px;
         // color: rgb(191,177,196);
         color: rgb(25,34,50);
 
@@ -216,13 +221,11 @@ ul{
 
 //session styling
 .session-container{
-    // width: 100vw;
-    // display: flex;
     position: relative;
     text-align: center;
+    height: 80vh;
 
     .session-img{
-        // transform: scale(0.5,0.5);
         height: 80vh;
         width: 100vw;
     }
@@ -231,13 +234,25 @@ ul{
         background-color: rgba(0, 0, 0, 0.678);
         position: absolute;
         color: white;
+        padding-bottom: 30px;
         width: 60vw;
-        // left: 35%;
         left: 20vw;
-        top: 20%;
+        top: 25%;
 
         h1{
+            margin: 0 auto;
             font-size: 80px;
+        }
+
+        button{
+            border: 0;
+            background-color: white;
+            font-family: "Poppins", sans-serif;
+            font-weight: bold;
+            font-size: 15px;
+            padding: 15px;
+            margin-top: 25px;
+            border-radius: 5px;
         }
     }
 
@@ -267,6 +282,7 @@ ul{
     }
 
     .newsletter-form > label, input{
+        border-radius: 5px;
         margin: 0 auto;
         display: block;
     }
@@ -329,7 +345,7 @@ ul{
     }
 
     .container{
-        padding: 5em 1.5em;
+        padding: 2em 1.5em;
     }
 
     .left-footer > p{
@@ -375,26 +391,27 @@ nav.desktop-nav{
     z-index: 900;
 
     .container{
+        // background-color: rgb(95,103,201);
+        // background-color: rgba(25,34,50);
         width: 100vw;
-        margin-top: 2vh;
+        padding: 5px 0;
         display: flex;
         place-content: space-between;
     }
 
     .logo{
-        margin-left: 2vw;
+        margin-left: 4vw;
         text-decoration: none;
         position: relative;
         height: 100%;
         color: white;
         // color: rgb(22, 29, 41);
-        font-size: 2em;
-        font-weight: bold;
+        font-size: 22px;
 
         &:hover{
-            // font-weight: bold;
+            font-weight: bold;
             // color: rgb(224, 224, 224);
-            color: rgb(192, 224, 231);
+            // color: rgb(192, 224, 231);
         }
     }
 
@@ -418,7 +435,6 @@ nav.desktop-nav{
     }
 
     ul.primary-nav{
-        background-color: rgba(0,0,0,0.9);
         margin-right: 2vw;
         display: flex;
     }
@@ -434,7 +450,10 @@ nav.desktop-nav{
         // text-decoration: none;
         padding: 0 .75em;
         margin: 0;
-        // border: 1px solid blue;
+
+        &:hover{
+            font-weight: bold;
+        }
     }
 
     .get-started-cta{
