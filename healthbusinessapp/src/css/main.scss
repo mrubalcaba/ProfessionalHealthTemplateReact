@@ -82,10 +82,9 @@ ul{
 
 .features{
     // background-color: rgb(25,34,50);
-    // background-color: rgb(41,21,32);
     // background-color: rgb(18, 29, 49);
-    background-color: rgb(80,110,146);
-    // background-color: rgb(5, 23, 68);
+    // background-color: rgb(80,110,146);
+    background-color: rgb(11, 15, 44);
     padding-top: 0.1vh;
 
     .hidden{
@@ -273,8 +272,9 @@ ul{
 
     .newsletter-header-title{
         margin: 0;
-        font-size: calc(1vh + 1rem);
-        font-weight: 300;
+        // font-size: calc(1vh + 1rem);
+        font-size: 32px;
+        font-weight: bold;
     }
 
     .newsletter-header-description{
